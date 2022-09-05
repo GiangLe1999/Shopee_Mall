@@ -1,0 +1,44 @@
+:root {
+  --white-color: #fff;
+  --black-color: #000;
+  --primary-color: #ee4d2d;
+  --mall-primary-color: #d0011b;
+  --text-primary-color: rgba(0, 0, 0, 0.87);
+  --header-height: 120px;
+  --nav-height: 34px;
+  --header-with-search: calc(var(--header-height) - var(--nav-height));
+}
+* {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes growth {
+  from {
+    transform: scale(var(--growth-from));
+  }
+  to {
+    transform: scale(var(--growth-to));
+  }
+}
+@keyframes drop {
+  from {
+    top: 0;
+  }
+  to {
+    top: calc(100% + 4px);
+  }
+}
