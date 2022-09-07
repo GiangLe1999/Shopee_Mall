@@ -4,9 +4,11 @@
   --primary-color: #ee4d2d;
   --mall-primary-color: #d0011b;
   --text-primary-color: rgba(0, 0, 0, 0.87);
+  --background-color: #f5f5f5;
   --header-height: 120px;
   --nav-height: 34px;
   --header-with-search: calc(var(--header-height) - var(--nav-height));
+  --container-nav-item-height: 56px;
 }
 * {
   box-sizing: inherit;
