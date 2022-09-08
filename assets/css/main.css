@@ -626,6 +626,7 @@
   --growth-to: 1;
   width: 400px;
   position: absolute;
+  z-index: 3;
   top: calc(100% + 5px);
   right: -8px;
   background-color: var(--white-color);
@@ -1036,135 +1037,58 @@
   padding-top: 50px;
   box-shadow: 1px -1px rgb(0 0 0 / 8%);
 }
-.suggest-for-client__product {
-  display: block;
-  background-color: var(--white-color);
+
+/* End Suggest Product for Client */
+/* Shope Category 1 */
+.shop-category-1 {
+  margin-top: 30px;
+}
+.shop-category-1__item {
   text-decoration: none;
   color: var(--text-primary-color);
-  position: relative;
-  box-shadow: 0 1rem 2rem 0 rgb(0 0 0 / 10%);
-}
-.suggest-for-client__product-img-process-agency {
-  width: 65px;
-  height: 22px;
-  background-color: var(--mall-primary-color);
-  position: absolute;
-  z-index: 1;
-  top: 8px;
-  left: -3px;
-  border-top-right-radius: 3px;
-  border-bottom-right-radius: 3px;
-  color: #f9dce0;
-  font-size: 0.75rem;
-  line-height: 11px;
-  padding-left: 3px;
-}
-.suggest-for-client__head {
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-}
-.suggest-for-client__heading {
-  font-size: 1.7rem;
-  color: rgba(0, 0, 0, 0.54);
-  font-weight: 400;
-  margin-bottom: 10px;
-}
-.suggest-for-client__link {
-  font-size: 1.4rem;
-  color: var(--mall-primary-color);
-  text-decoration: none;
-}
-
-.suggest-for-client__product-img {
-  padding-top: 100%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  position: relative;
-}
-.suggest-for-client__product-badge {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-}
-.suggest-for-client__product-detail {
-  padding: 8px;
-}
-.suggest-for-client__product-name {
   font-size: 1.2rem;
+  text-align: center;
+}
+.shop-category-1__item-img {
+  width: 100%;
+  border-radius: 50%;
+}
+.shop-category-1__item-name {
   font-weight: 400;
-  line-height: 1.4rem;
-  height: 2.8rem;
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 2;
-  overflow: hidden;
-  margin-bottom: 8px;
+  margin-top: 10px;
 }
-.suggest-for-client__product-special {
-  font-size: 1rem;
-  padding: 0 4px;
-  border: 1px solid var(--mall-primary-color);
-  color: var(--mall-primary-color);
-}
-.suggest-for-client__product-price {
-  margin: 10px 0 14px 0;
+.shop-category-1__item--last-background {
+  width: 100%;;
+  height: 100px;
+  border-radius: 50%;
+  background-color: var(--white-color);
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
 }
-.suggest-for-client__product-price-old {
-  color: rgba(0, 0, 0, 0.54);
-  font-size: 1.4rem;
-  text-decoration: line-through;
-  position: relative;
+.container-banner__1 {
+  height: 450px;
 }
-.suggest-for-client__product-price-currency {
-  color: rgba(0, 0, 0, 0.54);
-  font-size: 0.9rem;
-  text-decoration: underline;
-  position: relative;
-  top: -1.5px;
+.container-banner__2 {
+  height: 1625px;
 }
-.suggest-for-client__product-price-currency::after {
-  content: "";
-  height: 1px;
-  width: 8px;
-  background-color: rgba(0, 0, 0, 0.54);
-  position: absolute;
-  top: 6px;
-  right: -2px;
+.container-banner__3 {
+  height: 566px;
 }
-.suggest-for-client__product-price-new {
-  font-size: 1.6rem;
-  color: var(--primary-color);
+.container-banner__4 {
+  height: 156px;
 }
-.suggest-for-client__product-price-currency-new {
-  text-decoration: underline;
-  font-size: 0.9rem;
-  color: var(--primary-color);
-  position: relative;
-  bottom: 1.5px;
+.container-banner__5 {
+  height: 133px;
 }
-.suggest-for-client__product-rating-vs-sales {
+.big-deal-category {
+  margin-bottom: 20px;
+}
+.big-deal-category__heading {
+  color: var(--mall-primary-color);
   display: flex;
-  margin-bottom: 12px;
+  align-items: center;
 }
-.suggest-for-client__product-rating {
+.big-deal-category__heading svg {
   margin-right: 6px;
-}
-.suggest-for-client__product-sales {
-  font-size: 1.2rem;
-}
-.suggest-for-client__product-rating-star {
-  font-size: 0.8rem;
-  color: #d5d5d5;
-}
-.suggest-for-client__product-rating-star--active {
-  color: #ffce3d;
-}
-.suggest-for-client__product-origin {
-  color: rgba(0, 0, 0, 0.65);
-  font-size: 1.2rem;
 }

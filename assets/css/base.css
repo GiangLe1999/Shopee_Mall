@@ -20,7 +20,183 @@ html {
   font-family: "Roboto", sans-serif;
   box-sizing: border-box;
 }
-
+.category__head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.category__heading {
+  font-size: 1.7rem;
+  color: rgba(0, 0, 0, 0.54);
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.see-all-btn {
+  font-size: 1.4rem;
+  color: var(--mall-primary-color);
+  text-decoration: none;
+}
+.home-product__product {
+  display: block;
+  background-color: var(--white-color);
+  text-decoration: none;
+  color: var(--text-primary-color);
+  position: relative;
+  box-shadow: 0 1rem 2rem 0 rgb(0 0 0 / 10%);
+}
+.home-product__product-img-process-agency {
+  width: 65px;
+  height: 22px;
+  background-color: var(--mall-primary-color);
+  position: absolute;
+  z-index: 1;
+  top: 8px;
+  left: -3px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  color: #f9dce0;
+  font-size: 0.75rem;
+  line-height: 11px;
+  padding-left: 3px;
+}
+.home-product__product-img-process-agency::after {
+  content: "";
+  border-top: 3px solid var(--mall-primary-color);
+  border-left: 3px solid transparent;
+  position: absolute;
+  top: 22px;
+  left: 0px;
+  filter: brightness(60%);
+}
+.home-product__sales-off {
+  position: absolute;
+  z-index: 1;
+  top: 0px;
+  right: 0;
+  width: 35px;
+  height: 30px;
+  background-color: rgba(255,212,36,.9);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  line-height: 1.4rem;
+}
+.home-product__sales-off-percent {
+  color: var(--primary-color);
+  font-size: 1.2rem;
+}
+.home-product__sales-off-text {
+  text-transform: uppercase;
+  color: var(--white-color);
+  font-size: 1.2rem;
+}
+.home-product__sales-off::after {
+  content: "";
+  border-width: 0 17.5px 6px;
+  border-style: solid;
+  border-color: transparent rgba(255,212,36,.9) transparent rgba(255,212,36,.9);
+  position: absolute;
+  top: 100%;
+  left: 0;
+}
+.home-product__product-img {
+  padding-top: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.home-product__product-badge {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+.home-product__product-detail {
+  padding: 8px;
+}
+.home-product__product-name {
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.4rem;
+  height: 2.8rem;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  margin-bottom: 8px;
+}
+.home-product__product-special {
+  font-size: 1rem;
+  padding: 0 4px;
+  border: 1px solid var(--mall-primary-color);
+  color: var(--mall-primary-color);
+}
+.home-product__product-price {
+  margin: 10px 0 14px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.home-product__product-price-old {
+  color: rgba(0, 0, 0, 0.54);
+  font-size: 1.4rem;
+  text-decoration: line-through;
+  position: relative;
+}
+.home-product__product-price-currency {
+  color: rgba(0, 0, 0, 0.54);
+  font-size: 0.9rem;
+  text-decoration: underline;
+  position: relative;
+  top: -1.5px;
+}
+.home-product__product-price-currency::after {
+  content: "";
+  height: 1px;
+  width: 8px;
+  background-color: rgba(0, 0, 0, 0.54);
+  position: absolute;
+  top: 6px;
+  right: -2px;
+}
+.home-product__product-price-new {
+  font-size: 1.6rem;
+  color: var(--primary-color);
+}
+.home-product__product-price-currency-new {
+  text-decoration: underline;
+  font-size: 0.9rem;
+  color: var(--primary-color);
+  position: relative;
+  bottom: 1.5px;
+}
+.home-product__product-rating-vs-sales {
+  display: flex;
+  margin-bottom: 12px;
+}
+.home-product__product-rating {
+  margin-right: 6px;
+}
+.home-product__product-sales {
+  font-size: 1.2rem;
+}
+.home-product__product-rating-star {
+  font-size: 0.8rem;
+  color: #d5d5d5;
+}
+.home-product__product-rating-star--active {
+  color: #ffce3d;
+}
+.home-product__product-origin {
+  color: rgba(0, 0, 0, 0.65);
+  font-size: 1.2rem;
+}
+.container__banner {
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 20px;
+}
 @keyframes fadeIn {
   from {
     opacity: 0;
