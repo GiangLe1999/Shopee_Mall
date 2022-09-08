@@ -1078,9 +1078,23 @@
 .container-banner__4 {
   height: 156px;
 }
-.container-banner__5 {
+.container-banner__5,
+.container-banner__6,
+.container-banner__7,
+.container-banner__8 {
   height: 133px;
 }
+.container-banner__9 {
+  height: 674px;
+  margin-top: 20px;
+}
+.container-banner__10 {
+  height: 499px;
+}
+.container-banner__11 {
+  height: 300px;
+}
+/* Big Deal Category */
 .big-deal-category {
   margin-bottom: 20px;
 }
@@ -1091,4 +1105,86 @@
 }
 .big-deal-category__heading svg {
   margin-right: 6px;
+}
+/* End Big Deal Category */
+/* Other Category */
+.sound-system-category,
+.tivi-category,
+.household-category {
+  margin: 30px 0;
+}
+.laptop-gram__heading {
+  margin-top: 30px;
+}
+.home-product__voucher-and-badge {
+  display: flex;
+}
+.home-product__voucher-and-badge svg {
+  width: 4px;
+  height: 16px;
+  color: #f69113;
+}
+.home-product__product-voucher {
+  display: flex;
+  align-items: center;
+  margin-right: 4px;
+}
+.home-product__product-voucher span {
+  color: var(--white-color);
+  background-color: #f69113;
+  padding: 2.2px 0;
+  font-weight: 500;
+}
+.home-product__product--special .home-product__product-img {
+  background-size: contain;
+  background-position: center;
+}
+.home-product__product--special .home-product__product-special {
+  padding: 1px 2px;
+}
+.home-product__product--special .home-product__product-price {
+  justify-content: space-around;
+}
+/* Side Bar Category */
+.category-side-bar__heading {
+  font-size: 1.6rem;
+  color: var(--text-primary-color);
+  padding: 20px 0;
+}
+.category-side-bar__heading-icon {
+  font-size: 1.3rem;
+  margin-right: 10px;
+}
+.category-side-bar__list {
+  list-style: none;
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
+  padding-top: 10px;
+}
+
+.category-side-bar__item:hover .category-side-bar__item-link {
+  color: var(--mall-primary-color);
+}
+.category-side-bar__item--active .category-side-bar__item-link {
+  color: var(--mall-primary-color);
+}
+
+.category-side-bar__item-link {
+  display: block;
+  text-decoration: none;
+  color: var(--text-primary-color);
+  font-size: 1.4rem;
+  line-height: 4rem;
+}
+.category-side-bar__item-icon {
+  color: var(--mall-primary-color);
+  margin-right: 8px;
+  font-size: 1.1rem;
+}
+.category-side-bar__item {
+  display: flex;
+  align-items: baseline;
+  height: 40px;
+}
+.category-side-bar__item .category-side-bar__item-icon {
+  display: none;
 }
