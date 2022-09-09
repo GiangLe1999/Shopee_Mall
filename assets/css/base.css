@@ -213,6 +213,24 @@ html {
 .home__product--zero-sales .home-product__product-origin {
   margin-top: 40px;
 }
+.btn {
+  --height-btn: 34px;
+  color: var(--text-primary-color);
+  background-color: var(--white-color);
+  min-width: 90px;
+  height: var(--height-btn);
+  line-height: var(--height-btn);
+  border-radius: 2px;
+  font-size: 1.4rem;
+  border: none;
+  text-decoration: none;
+  cursor: pointer;
+  text-align: center;
+}
+.btn--active {
+  background-color: var(--primary-color);
+  color: var(--white-color);
+}
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -235,5 +253,15 @@ html {
   }
   to {
     top: calc(100% + 4px);
+  }
+}
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    top: var(--top-from);
+  }
+  to {
+    opacity: 1;
+    top: var(--top-to);
   }
 }
