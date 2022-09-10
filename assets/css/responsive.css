@@ -1,0 +1,72 @@
+/* Mobile & Tablet */
+@media (max-width: 1023px) {
+   
+}
+
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    .grid.wide {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0px 15px;
+      }
+    .nav__item-link {
+        padding: 0 6px;
+        font-size: 1.12rem;
+    }
+    .nav__item span {
+        font-size: 1.12rem;
+        line-height: 1.5rem;
+        padding: 1px 6px 0 6px ;
+    }
+    .nav__account-link span {
+        padding: 1px 0 0 6px;
+    }
+    .nav__social-icon {
+        font-size: 1.2rem;
+    }
+    .nav__account-avt {
+        width: 16px;
+        height: 16px;
+    }
+    .brand-section {
+        width: 30%;
+    }
+    .header-function-section {
+        width: 70%;
+    }
+    .brand-section__logo {
+        width: 35px;
+    }
+    .header-search__select, .header-search__input {
+        font-size: 1.3rem;
+    }
+    .header-search {
+        position: relative;
+        top: -4px;
+    }
+    .container__nav-item-link, .container__nav-item--more-link {
+        font-size: 1.3rem;
+    }
+    .col.l-2.m-4 {
+        margin-bottom: 10px;
+    }
+    .shop-category-1__item--last-background {
+        display: none;
+    }
+    .col.l-1-2.m-2 {
+        margin-bottom: 20px;
+    }
+    .shop-category-1__head .see-all-btn {
+        display: block;
+    }
+    .container__banner {
+        background-size: contain;
+    }
+}
+
+/* Mobile */
+@media (max-width: 739px) {
+
+}
