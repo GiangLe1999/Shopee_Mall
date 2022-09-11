@@ -106,9 +106,13 @@
     width: 100%;
   }
   .container {
-    margin-top: 170px;
+    margin-top: 150px;
+  }
+  .header-search__select .header__search-icon-down {
+    margin-left: 0;
   }
 }
+
 /* Mobile */
 @media (max-width: 739px) {
   :root {
@@ -131,9 +135,10 @@
   }
   .brand-section {
     position: relative;
-    left: 82px;
     top: 3px;
     width: unset;
+    left: 44%;
+    transform: translateX(-50%);
   }
   .header-search {
     position: fixed;
@@ -151,7 +156,7 @@
     padding: 0 0 0 8px;
   }
   .header-search__select span {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
   }
   .header-search__btn {
     width: 40px;
@@ -265,5 +270,12 @@
   }
   .product-category-mobile {
     display: block;
+  }
+  .header-function-section {
+    width: unset;
+    margin-left: auto;
+  }
+  .header-cart {
+    padding-right: 4px;
   }
 }

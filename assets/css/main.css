@@ -411,8 +411,7 @@
 /* Header with Search */
 .search-mobile__icon {
   position: relative;
-  left: -147px;
-  top: 4px;
+  top: 6px;
 }
 .category-mobile__icon i,
 .search-mobile__icon i {
