@@ -272,7 +272,36 @@
             </ul>
           </nav>
           <!-- End Nav Bar Header -->
+          
+          <!-- Header with Search -->
           <div class="header-with-search">
+            <!-- Mobile Function Category -->
+            <input type="checkbox" class="category-mobile__input" id="category-mobile-input" hidden>
+            <label for="category-mobile-input" class="category-mobile__icon">
+              <i class="fa-solid fa-bars"></i>
+            </label>
+            <label for="category-mobile-input" class="category-mobile__overlay"></label>
+            <div class="category-mobile">
+              <h4 class="category-mobile__heading">Chức năng</h4>
+              <ul class="category-mobile__list">
+                <li class="category-mobile__item">
+                  <a href="" class="category-mobile__item-link">Tài khoản của tôi</a>
+                </li>
+                <li class="category-mobile__item">
+                  <a href="" class="category-mobile__item-link">Địa chỉ của tôi</a>
+                </li>
+                <li class="category-mobile__item">
+                  <a href="" class="category-mobile__item-link">Đơn mua</a>
+                </li>
+                <li class="category-mobile__item category-mobile__item--has-border">
+                  <a href="" class="category-mobile__item-link">Đăng xuất</a>
+                </li>
+              </ul>
+            </div>
+            <!-- End Mobile Funcition Category -->
+            <!-- Search Mobile -->
+            
+            
             <!-- Brand Section -->
             <div class="brand-section">
               <div class="brand-section__logo">
@@ -321,7 +350,12 @@
             </div>
             <!-- End Brand Section -->
             <!-- Header Search Section -->
+            
             <div class="header-function-section">
+              <label class="search-mobile__icon" for="search-mobile-input">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </label>
+              <input type="checkbox" hidden class="search-mobile__input" id="search-mobile-input">
               <div class="header-search">
                 <div class="header-search__bar">
                   <div class="header-search__input-for-search">
@@ -529,15 +563,35 @@
               </div>
             </div>
             <!-- End Header Search Section -->
+            
           </div>
+          <!-- End Header with Search -->
+          
         </div>
+        <!-- Header Filter on Tablet -->
+        <ul class="header-filter-tablet__list">
+          <li class="header-filter-tablet__item">
+            <a href="" class="header-filter-tablet__item-link">Liên quan</a>
+          </li>
+          <li class="header-filter-tablet__item header-filter-tablet__item--active">
+            <a href="" class="header-filter-tablet__item-link">Mới nhất</a>
+          </li>
+          <li class="header-filter-tablet__item">
+            <a href="" class="header-filter-tablet__item-link">Bán chạy</a>
+          </li>
+          <li class="header-filter-tablet__item">
+            <a href="" class="header-filter-tablet__item-link">Giá</a>
+          </li>
+        </ul>
+        <!-- End Header Filter on Tablet -->
+        <div class="clear"></div>
       </div>
       <!-- End Header -->
       <!-- Container -->
       <div class="container">
         <div class="grid wide">
           <div class="row l-gutter">
-            <div class="col l-4 m-12">
+            <div class="col l-4 m-12 c-12">
               <div class="general-info">
                 <div class="mall-brand">
                   <div
@@ -754,6 +808,34 @@
             </nav>
           </div>
         </div>
+        <nav class="product-category-mobile">
+          <ul class="product-category-mobile__list">
+            <li class="product-category-mobile__item">
+              <a href="" class="product-category-mobile__item-link"><span>Tivi LG</span></a>
+            </li>
+            <li class="product-category-mobile__item">
+              <a href="" class="product-category-mobile__item-link"><span>Loa Di Động Bluetooth</span></a>
+            </li>
+            <li class="product-category-mobile__item">
+              <a href="" class="product-category-mobile__item-link"><span>Màn Hình LG</span></a>
+            </li>
+            <li class="product-category-mobile__item">
+              <a href="" class="product-category-mobile__item-link"><span>Máy Giặt LG</span></a>
+            </li>
+            <li class="product-category-mobile__item">
+              <a href="" class="product-category-mobile__item-link"><span>Máy Lạnh LG</span></a>
+            </li>
+            <li class="product-category-mobile__item">
+              <a href="" class="product-category-mobile__item-link"><span>SoundBar LG</span></a>
+            </li>
+            <li class="product-category-mobile__item">
+              <a href="" class="product-category-mobile__item-link"><span>Dàn Âm Thanh</span></a>
+            </li>
+            <li class="product-category-mobile__item">
+              <a href="" class="product-category-mobile__item-link"><span>Laptop</span></a>
+            </li>
+          </ul>
+        </nav>
         <div class="suggest-section-wrap">
           <div class="grid wide">
             <!-- Suggest Product for client -->
@@ -768,7 +850,7 @@
 
                 <div class="home-product__body suggest-section__product-body">
                   <div class="row sm-gutter">
-                    <div class="col l-2 m-4">
+                    <div class="col l-2 m-4 c-6">
                       <a href="" class="home-product__product">
                         <div class="home-product__product-img-process-agency">
                           XỬ LÝ ĐƠN HÀNG BỞI SHOPEE
@@ -928,7 +1010,7 @@
                         </div>
                       </a>
                     </div>
-                    <div class="col l-2 m-4">
+                    <div class="col l-2 m-4 c-6">
                       <a href="" class="home-product__product">
                         <div class="home-product__product-img-process-agency">
                           XỬ LÝ ĐƠN HÀNG BỞI SHOPEE
@@ -1088,7 +1170,7 @@
                         </div>
                       </a>
                     </div>
-                    <div class="col l-2 m-4">
+                    <div class="col l-2 m-4 c-6">
                       <a href="" class="home-product__product">
                         <div class="home-product__product-img-process-agency">
                           XỬ LÝ ĐƠN HÀNG BỞI SHOPEE
@@ -1248,7 +1330,7 @@
                         </div>
                       </a>
                     </div>
-                    <div class="col l-2 m-4">
+                    <div class="col l-2 m-4 c-6">
                       <a href="" class="home-product__product">
                         <div class="home-product__product-img-process-agency">
                           XỬ LÝ ĐƠN HÀNG BỞI SHOPEE
@@ -1408,7 +1490,7 @@
                         </div>
                       </a>
                     </div>
-                    <div class="col l-2 m-4">
+                    <div class="col l-2 m-4 c-6">
                       <a href="" class="home-product__product">
                         <div class="home-product__product-img-process-agency">
                           XỬ LÝ ĐƠN HÀNG BỞI SHOPEE
@@ -1568,7 +1650,7 @@
                         </div>
                       </a>
                     </div>
-                    <div class="col l-2 m-4">
+                    <div class="col l-2 m-4 c-6">
                       <a href="" class="home-product__product">
                         <div class="home-product__product-img-process-agency">
                           XỬ LÝ ĐƠN HÀNG BỞI SHOPEE
@@ -1743,7 +1825,7 @@
               </div>
               <div class="shop-category-1__body">
                 <div class="row">
-                  <div class="col l-1-2 m-2">
+                  <div class="col l-1-2 m-2 c-6">
                     <a href="" class="shop-category-1__item">
                       <img
                         src="./assets/img/shop-category-1-item.jpg"
@@ -1753,7 +1835,7 @@
                       <h3 class="shop-category-1__item-name">Tivi LG</h3>
                     </a>
                   </div>
-                  <div class="col l-1-2 m-2">
+                  <div class="col l-1-2 m-2 c-6">
                     <a href="" class="shop-category-1__item">
                       <img
                         src="./assets/img/shop-category-1-item.jpg"
@@ -1763,7 +1845,7 @@
                       <h3 class="shop-category-1__item-name">Tivi LG</h3>
                     </a>
                   </div>
-                  <div class="col l-1-2 m-2">
+                  <div class="col l-1-2 m-2 c-6">
                     <a href="" class="shop-category-1__item">
                       <img
                         src="./assets/img/shop-category-1-item.jpg"
@@ -1773,7 +1855,7 @@
                       <h3 class="shop-category-1__item-name">Tivi LG</h3>
                     </a>
                   </div>
-                  <div class="col l-1-2 m-2">
+                  <div class="col l-1-2 m-2 c-6">
                     <a href="" class="shop-category-1__item">
                       <img
                         src="./assets/img/shop-category-1-item.jpg"
@@ -1783,7 +1865,7 @@
                       <h3 class="shop-category-1__item-name">Tivi LG</h3>
                     </a>
                   </div>
-                  <div class="col l-1-2 m-2">
+                  <div class="col l-1-2 m-2 c-6">
                     <a href="" class="shop-category-1__item">
                       <img
                         src="./assets/img/shop-category-1-item.jpg"
@@ -1793,7 +1875,7 @@
                       <h3 class="shop-category-1__item-name">Tivi LG</h3>
                     </a>
                   </div>
-                  <div class="col l-1-2 m-2">
+                  <div class="col l-1-2 m-2 c-6">
                     <a href="" class="shop-category-1__item">
                       <img
                         src="./assets/img/shop-category-1-item.jpg"
@@ -1803,7 +1885,7 @@
                       <h3 class="shop-category-1__item-name">Tivi LG</h3>
                     </a>
                   </div>
-                  <div class="col l-1-2 m-2">
+                  <div class="col l-1-2 m-2 c-6">
                     <a href="" class="shop-category-1__item">
                       <img
                         src="./assets/img/shop-category-1-item.jpg"
@@ -1813,7 +1895,7 @@
                       <h3 class="shop-category-1__item-name">Tivi LG</h3>
                     </a>
                   </div>
-                  <div class="col l-1-2 m-2">
+                  <div class="col l-1-2 m-2 c-6">
                     <a href="" class="shop-category-1__item">
                       <img
                         src="./assets/img/shop-category-1-item.jpg"
@@ -1823,7 +1905,7 @@
                       <h3 class="shop-category-1__item-name">Tivi LG</h3>
                     </a>
                   </div>
-                  <div class="col l-1-2 m-2">
+                  <div class="col l-1-2 m-2 c-6">
                     <a href="" class="shop-category-1__item">
                       <img
                         src="./assets/img/shop-category-1-item.jpg"
@@ -1833,7 +1915,7 @@
                       <h3 class="shop-category-1__item-name">Tivi LG</h3>
                     </a>
                   </div>
-                  <div class="col l-1-2 m-2">
+                  <div class="col l-1-2 m-2 c-6">
                     <a href="" class="shop-category-1__item--last">
                       <div class="shop-category-1__item--last-background">
                         <a href="" class="see-all-btn"
@@ -1890,7 +1972,7 @@
               </div>
               <div class="category__body big-deal-category__body">
                 <div class="row sm-gutter">
-                  <div class="col l-2 m-4">
+                  <div class="col l-2 m-4 c-6">
                     <a href="" class="home-product__product">
                       <div class="home-product__product-img-process-agency">
                         XỬ LÝ ĐƠN HÀNG BỞI SHOPEE
@@ -2043,7 +2125,7 @@
                       </div>
                     </a>
                   </div>
-                  <div class="col l-2 m-4">
+                  <div class="col l-2 m-4 c-6">
                     <a href="" class="home-product__product">
                       <div class="home-product__product-img-process-agency">
                         XỬ LÝ ĐƠN HÀNG BỞI SHOPEE
@@ -2196,7 +2278,7 @@
                       </div>
                     </a>
                   </div>
-                  <div class="col l-2 m-4">
+                  <div class="col l-2 m-4 c-6">
                     <a href="" class="home-product__product">
                       <div class="home-product__product-img-process-agency">
                         XỬ LÝ ĐƠN HÀNG BỞI SHOPEE
@@ -2349,7 +2431,7 @@
                       </div>
                     </a>
                   </div>
-                  <div class="col l-2 m-4">
+                  <div class="col l-2 m-4 c-6">
                     <a href="" class="home-product__product">
                       <div class="home-product__product-img-process-agency">
                         XỬ LÝ ĐƠN HÀNG BỞI SHOPEE
@@ -2502,7 +2584,7 @@
                       </div>
                     </a>
                   </div>
-                  <div class="col l-2 m-4">
+                  <div class="col l-2 m-4 c-6">
                     <a href="" class="home-product__product">
                       <div class="home-product__product-img-process-agency">
                         XỬ LÝ ĐƠN HÀNG BỞI SHOPEE
@@ -2655,7 +2737,7 @@
                       </div>
                     </a>
                   </div>
-                  <div class="col l-2 m-4">
+                  <div class="col l-2 m-4 c-6">
                     <a href="" class="home-product__product">
                       <div class="home-product__product-img-process-agency">
                         XỬ LÝ ĐƠN HÀNG BỞI SHOPEE
@@ -2836,7 +2918,7 @@
               </div>
               <div class="category__body sound-system-category__body">
                 <div class="row sm-gutter">
-                  <div class="col l-2 m-4">
+                  <div class="col l-2 m-4 c-6">
                     <a href="" class="home-product__product">
                       <div class="home-product__product-img-process-agency">
                         XỬ LÝ ĐƠN HÀNG BỞI SHOPEE
@@ -2989,7 +3071,7 @@
                       </div>
                     </a>
                   </div>
-                  <div class="col l-2 m-4">
+                  <div class="col l-2 m-4 c-6">
                     <a href="" class="home-product__product">
                       <div class="home-product__product-img-process-agency">
                         XỬ LÝ ĐƠN HÀNG BỞI SHOPEE
@@ -3142,7 +3224,7 @@
                       </div>
                     </a>
                   </div>
-                  <div class="col l-2 m-4">
+                  <div class="col l-2 m-4 c-6">
                     <a href="" class="home-product__product">
                       <div class="home-product__product-img-process-agency">
                         XỬ LÝ ĐƠN HÀNG BỞI SHOPEE
@@ -3295,7 +3377,7 @@
                       </div>
                     </a>
                   </div>
-                  <div class="col l-2 m-4">
+                  <div class="col l-2 m-4 c-6">
                     <a href="" class="home-product__product">
                       <div class="home-product__product-img-process-agency">
                         XỬ LÝ ĐƠN HÀNG BỞI SHOPEE
@@ -3448,7 +3530,7 @@
                       </div>
                     </a>
                   </div>
-                  <div class="col l-2 m-4">
+                  <div class="col l-2 m-4 c-6">
                     <a href="" class="home-product__product">
                       <div class="home-product__product-img-process-agency">
                         XỬ LÝ ĐƠN HÀNG BỞI SHOPEE
@@ -3601,7 +3683,7 @@
                       </div>
                     </a>
                   </div>
-                  <div class="col l-2 m-4">
+                  <div class="col l-2 m-4 c-6">
                     <a href="" class="home-product__product">
                       <div class="home-product__product-img-process-agency">
                         XỬ LÝ ĐƠN HÀNG BỞI SHOPEE
@@ -3764,7 +3846,7 @@
             <!-- Tivi Category -->
             <div class="tivi-category">
               <div class="row sm-gutter">
-                <div class="col l-2 m-4">
+                <div class="col l-2 m-4 c-6">
                   <a href="" class="home-product__product">
                     <div class="home-product__product-img-process-agency">
                       XỬ LÝ ĐƠN HÀNG BỞI SHOPEE
@@ -3916,7 +3998,7 @@
                     </div>
                   </a>
                 </div>
-                <div class="col l-2 m-4">
+                <div class="col l-2 m-4 c-6">
                   <a href="" class="home-product__product">
                     <div class="home-product__product-img-process-agency">
                       XỬ LÝ ĐƠN HÀNG BỞI SHOPEE
@@ -4068,7 +4150,7 @@
                     </div>
                   </a>
                 </div>
-                <div class="col l-2 m-4">
+                <div class="col l-2 m-4 c-6">
                   <a href="" class="home-product__product">
                     <div class="home-product__product-img-process-agency">
                       XỬ LÝ ĐƠN HÀNG BỞI SHOPEE
@@ -4220,7 +4302,7 @@
                     </div>
                   </a>
                 </div>
-                <div class="col l-2 m-4">
+                <div class="col l-2 m-4 c-6">
                   <a href="" class="home-product__product">
                     <div class="home-product__product-img-process-agency">
                       XỬ LÝ ĐƠN HÀNG BỞI SHOPEE
@@ -4372,7 +4454,7 @@
                     </div>
                   </a>
                 </div>
-                <div class="col l-2 m-4">
+                <div class="col l-2 m-4 c-6">
                   <a href="" class="home-product__product">
                     <div class="home-product__product-img-process-agency">
                       XỬ LÝ ĐƠN HÀNG BỞI SHOPEE
@@ -4524,7 +4606,7 @@
                     </div>
                   </a>
                 </div>
-                <div class="col l-2 m-4">
+                <div class="col l-2 m-4 c-6">
                   <a href="" class="home-product__product">
                     <div class="home-product__product-img-process-agency">
                       XỬ LÝ ĐƠN HÀNG BỞI SHOPEE
@@ -4686,7 +4768,7 @@
             ></div>
             <div class="household-category">
               <div class="row sm-gutter">
-                <div class="col l-2 m-4">
+                <div class="col l-2 m-4 c-6">
                   <a href="" class="home-product__product">
                     <div class="home-product__product-img-process-agency">
                       XỬ LÝ ĐƠN HÀNG BỞI SHOPEE
@@ -4838,7 +4920,7 @@
                     </div>
                   </a>
                 </div>
-                <div class="col l-2 m-4">
+                <div class="col l-2 m-4 c-6">
                   <a href="" class="home-product__product">
                     <div class="home-product__product-img-process-agency">
                       XỬ LÝ ĐƠN HÀNG BỞI SHOPEE
@@ -4990,7 +5072,7 @@
                     </div>
                   </a>
                 </div>
-                <div class="col l-2 m-4">
+                <div class="col l-2 m-4 c-6">
                   <a href="" class="home-product__product">
                     <div class="home-product__product-img-process-agency">
                       XỬ LÝ ĐƠN HÀNG BỞI SHOPEE
@@ -5142,7 +5224,7 @@
                     </div>
                   </a>
                 </div>
-                <div class="col l-2 m-4">
+                <div class="col l-2 m-4 c-6">
                   <a href="" class="home-product__product">
                     <div class="home-product__product-img-process-agency">
                       XỬ LÝ ĐƠN HÀNG BỞI SHOPEE
@@ -5294,7 +5376,7 @@
                     </div>
                   </a>
                 </div>
-                <div class="col l-2 m-4">
+                <div class="col l-2 m-4 c-6">
                   <a href="" class="home-product__product">
                     <div class="home-product__product-img-process-agency">
                       XỬ LÝ ĐƠN HÀNG BỞI SHOPEE
@@ -5446,7 +5528,7 @@
                     </div>
                   </a>
                 </div>
-                <div class="col l-2 m-4">
+                <div class="col l-2 m-4 c-6">
                   <a href="" class="home-product__product">
                     <div class="home-product__product-img-process-agency">
                       XỬ LÝ ĐƠN HÀNG BỞI SHOPEE
@@ -5616,7 +5698,7 @@
             </div>
             <div class="do-play-great-category">
               <div class="row sm-gutter">
-                <div class="col l-2 m-4">
+                <div class="col l-2 m-4 c-6">
                   <a href="" class="home-product__product">
                     <div class="home-product__product-img-process-agency">
                       XỬ LÝ ĐƠN HÀNG BỞI SHOPEE
@@ -5768,7 +5850,7 @@
                     </div>
                   </a>
                 </div>
-                <div class="col l-2 m-4">
+                <div class="col l-2 m-4 c-6">
                   <a href="" class="home-product__product">
                     <div class="home-product__product-img-process-agency">
                       XỬ LÝ ĐƠN HÀNG BỞI SHOPEE
@@ -5920,7 +6002,7 @@
                     </div>
                   </a>
                 </div>
-                <div class="col l-2 m-4">
+                <div class="col l-2 m-4 c-6">
                   <a href="" class="home-product__product">
                     <div class="home-product__product-img-process-agency">
                       XỬ LÝ ĐƠN HÀNG BỞI SHOPEE
@@ -6072,7 +6154,7 @@
                     </div>
                   </a>
                 </div>
-                <div class="col l-2 m-4">
+                <div class="col l-2 m-4 c-6">
                   <a href="" class="home-product__product">
                     <div class="home-product__product-img-process-agency">
                       XỬ LÝ ĐƠN HÀNG BỞI SHOPEE
@@ -6224,7 +6306,7 @@
                     </div>
                   </a>
                 </div>
-                <div class="col l-2 m-4">
+                <div class="col l-2 m-4 c-6">
                   <a href="" class="home-product__product">
                     <div class="home-product__product-img-process-agency">
                       XỬ LÝ ĐƠN HÀNG BỞI SHOPEE
@@ -6376,7 +6458,7 @@
                     </div>
                   </a>
                 </div>
-                <div class="col l-2 m-4">
+                <div class="col l-2 m-4 c-6">
                   <a href="" class="home-product__product">
                     <div class="home-product__product-img-process-agency">
                       XỬ LÝ ĐƠN HÀNG BỞI SHOPEE
@@ -6538,7 +6620,7 @@
               </h3>
             </div>
             <div class="row sm-gutter">
-              <div class="col l-2 m-4">
+              <div class="col l-2 m-4 c-6">
                 <a
                   href=""
                   class="home-product__product home-product__product--special"
@@ -6637,7 +6719,7 @@
                   </div>
                 </a>
               </div>
-              <div class="col l-2 m-4">
+              <div class="col l-2 m-4 c-6">
                 <a
                   href=""
                   class="home-product__product home-product__product--special home__product--zero-sales"
@@ -6753,7 +6835,7 @@
             <div class="home-main-product-section">
               <div class="row">
                 <!-- Side Bar Category -->
-                <div class="col l-2 m-4">
+                <div class="col l-2">
                   <div class="category-side-bar">
                     <h3 class="category-side-bar__heading">
                       <i
@@ -6814,7 +6896,7 @@
                 </div>
                 <!-- End Side Bar Category -->
 
-                <div class="col l-10">
+                <div class="col l-10 m-12 c-12">
                   <!-- Container Filter -->
                   <div class="container-filter-section">
                     <div class="container-filter">
@@ -6862,7 +6944,7 @@
                   <div class="container-main-product-section">
                     <div class="container-main-product-row">
                       <div class="row sm-gutter">
-                        <div class="col l-2 m-4-4">
+                        <div class="col l-2-4 m-2-4 c-6">
                           <a
                             href=""
                             class="home-product__product container-main-product"
@@ -7036,7 +7118,7 @@
                             </div>
                           </a>
                         </div>
-                        <div class="col l-2 m-4-4">
+                        <div class="col l-2-4 m-2-4 c-6">
                           <a
                             href=""
                             class="home-product__product container-main-product"
@@ -7210,7 +7292,7 @@
                             </div>
                           </a>
                         </div>
-                        <div class="col l-2 m-4-4">
+                        <div class="col l-2-4 m-2-4 c-6">
                           <a
                             href=""
                             class="home-product__product container-main-product"
@@ -7384,7 +7466,7 @@
                             </div>
                           </a>
                         </div>
-                        <div class="col l-2 m-4-4">
+                        <div class="col l-2-4 m-2-4 c-6">
                           <a
                             href=""
                             class="home-product__product container-main-product"
@@ -7558,881 +7640,7 @@
                             </div>
                           </a>
                         </div>
-                        <div class="col l-2 m-4-4">
-                          <a
-                            href=""
-                            class="home-product__product container-main-product"
-                          >
-                            <div
-                              class="home-product__product-img-process-agency"
-                            >
-                              XỬ LÝ ĐƠN HÀNG BỞI SHOPEE
-                            </div>
-                            <div class="home-product__sales-off">
-                              <span class="home-product__sales-off-percent"
-                                >49%</span
-                              >
-                              <span class="home-product__sales-off-text"
-                                >Giảm</span
-                              >
-                            </div>
-
-                            <div
-                              class="home-product__product-img"
-                              style="
-                                background-image: url(./assets/img/suggest-product-1.png);
-                              "
-                            >
-                              <img
-                                src="./assets/img/product-badge.png"
-                                alt="Product Badge"
-                                class="home-product__product-badge"
-                              />
-                            </div>
-                            <div class="home-product__product-detail">
-                              <h4 class="home-product__product-name">
-                                [Mã ELBAU150 giảm 8% đơn 500K] Màn Hình LG
-                                27QN600 27" IPS QHD (2560x1440) HDR AMD Freesync
-                                - Chính Hãng
-                              </h4>
-                              <span class="home-product__product-special">
-                                #ShopDacBiet
-                              </span>
-                              <div class="home-product__product-price">
-                                <div
-                                  class="home-product__product-price-old-section"
-                                >
-                                  <span
-                                    class="home-product__product-price-currency"
-                                    >đ</span
-                                  ><span class="home-product__product-price-old"
-                                    >7.890.000</span
-                                  >
-                                </div>
-                                <div
-                                  class="home-product__product-price-new-section"
-                                >
-                                  <span
-                                    class="home-product__product-price-currency-new"
-                                    >đ</span
-                                  ><span class="home-product__product-price-new"
-                                    >6.400.000</span
-                                  >
-                                </div>
-                                <svg
-                                  height="12"
-                                  viewBox="0 0 20 12"
-                                  width="20"
-                                  class="shopee-svg-icon icon-free-shipping"
-                                >
-                                  <g
-                                    fill="none"
-                                    fill-rule="evenodd"
-                                    transform=""
-                                  >
-                                    <rect
-                                      fill="#00bfa5"
-                                      fill-rule="evenodd"
-                                      height="9"
-                                      rx="1"
-                                      width="12"
-                                      x="4"
-                                    ></rect>
-                                    <rect
-                                      height="8"
-                                      rx="1"
-                                      stroke="#00bfa5"
-                                      width="11"
-                                      x="4.5"
-                                      y=".5"
-                                    ></rect>
-                                    <rect
-                                      fill="#00bfa5"
-                                      fill-rule="evenodd"
-                                      height="7"
-                                      rx="1"
-                                      width="7"
-                                      x="13"
-                                      y="2"
-                                    ></rect>
-                                    <rect
-                                      height="6"
-                                      rx="1"
-                                      stroke="#00bfa5"
-                                      width="6"
-                                      x="13.5"
-                                      y="2.5"
-                                    ></rect>
-                                    <circle
-                                      cx="8"
-                                      cy="10"
-                                      fill="#00bfa5"
-                                      r="2"
-                                    ></circle>
-                                    <circle
-                                      cx="15"
-                                      cy="10"
-                                      fill="#00bfa5"
-                                      r="2"
-                                    ></circle>
-                                    <path
-                                      d="m6.7082481 6.7999878h-.7082481v-4.2275391h2.8488017v.5976563h-2.1405536v1.2978515h1.9603297v.5800782h-1.9603297zm2.6762505 0v-3.1904297h.6544972v.4892578h.0505892c.0980164-.3134765.4774351-.5419922.9264138-.5419922.0980165 0 .2276512.0087891.3003731.0263672v.6210938c-.053751-.0175782-.2624312-.038086-.3762568-.038086-.5122152 0-.8758247.3017578-.8758247.75v1.8837891zm3.608988-2.7158203c-.5027297 0-.8536919.328125-.8916338.8261719h1.7390022c-.0158092-.5009766-.3446386-.8261719-.8473684-.8261719zm.8442065 1.8544922h.6544972c-.1549293.571289-.7050863.9228515-1.49238.9228515-.9864885 0-1.5903965-.6269531-1.5903965-1.6464843 0-1.0195313.6165553-1.6669922 1.5872347-1.6669922.9580321 0 1.5366455.6064453 1.5366455 1.6083984v.2197266h-2.4314412v.0351562c.0221328.5595703.373095.9140625.9169284.9140625.4110369 0 .6924391-.1376953.8189119-.3867187zm2.6224996-1.8544922c-.5027297 0-.853692.328125-.8916339.8261719h1.7390022c-.0158091-.5009766-.3446386-.8261719-.8473683-.8261719zm.8442064 1.8544922h.6544972c-.1549293.571289-.7050863.9228515-1.49238.9228515-.9864885 0-1.5903965-.6269531-1.5903965-1.6464843 0-1.0195313.6165553-1.6669922 1.5872347-1.6669922.9580321 0 1.5366455.6064453 1.5366455 1.6083984v.2197266h-2.4314412v.0351562c.0221328.5595703.373095.9140625.9169284.9140625.4110369 0 .6924391-.1376953.8189119-.3867187z"
-                                      fill="#fff"
-                                    ></path>
-                                    <path
-                                      d="m .5 8.5h3.5v1h-3.5z"
-                                      fill="#00bfa5"
-                                    ></path>
-                                    <path
-                                      d="m0 10.15674h3.5v1h-3.5z"
-                                      fill="#00bfa5"
-                                    ></path>
-                                    <circle
-                                      cx="8"
-                                      cy="10"
-                                      fill="#047565"
-                                      r="1"
-                                    ></circle>
-                                    <circle
-                                      cx="15"
-                                      cy="10"
-                                      fill="#047565"
-                                      r="1"
-                                    ></circle>
-                                  </g>
-                                </svg>
-                              </div>
-                              <div
-                                class="home-product__product-rating-vs-sales"
-                              >
-                                <div class="home-product__product-rating">
-                                  <i
-                                    class="fa-solid fa-star home-product__product-rating-star home-product__product-rating-star--active"
-                                  ></i>
-                                  <i
-                                    class="fa-solid fa-star home-product__product-rating-star home-product__product-rating-star--active"
-                                  ></i>
-                                  <i
-                                    class="fa-solid fa-star home-product__product-rating-star home-product__product-rating-star--active"
-                                  ></i>
-                                  <i
-                                    class="fa-solid fa-star home-product__product-rating-star home-product__product-rating-star--active"
-                                  ></i>
-                                  <i
-                                    class="fa-solid fa-star home-product__product-rating-star"
-                                  ></i>
-                                </div>
-                                <span class="home-product__product-sales">
-                                  Đã bán 173
-                                </span>
-                              </div>
-                              <p class="home-product__product-origin">
-                                TP. Hồ Chí Minh
-                              </p>
-                            </div>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="container-main-product-row">
-                      <div class="row sm-gutter">
-                        <div class="col l-2 m-4-4">
-                          <a
-                            href=""
-                            class="home-product__product container-main-product"
-                          >
-                            <div
-                              class="home-product__product-img-process-agency"
-                            >
-                              XỬ LÝ ĐƠN HÀNG BỞI SHOPEE
-                            </div>
-                            <div class="home-product__sales-off">
-                              <span class="home-product__sales-off-percent"
-                                >49%</span
-                              >
-                              <span class="home-product__sales-off-text"
-                                >Giảm</span
-                              >
-                            </div>
-
-                            <div
-                              class="home-product__product-img"
-                              style="
-                                background-image: url(./assets/img/suggest-product-1.png);
-                              "
-                            >
-                              <img
-                                src="./assets/img/product-badge.png"
-                                alt="Product Badge"
-                                class="home-product__product-badge"
-                              />
-                            </div>
-                            <div class="home-product__product-detail">
-                              <h4 class="home-product__product-name">
-                                [Mã ELBAU150 giảm 8% đơn 500K] Màn Hình LG
-                                27QN600 27" IPS QHD (2560x1440) HDR AMD Freesync
-                                - Chính Hãng
-                              </h4>
-                              <span class="home-product__product-special">
-                                #ShopDacBiet
-                              </span>
-                              <div class="home-product__product-price">
-                                <div
-                                  class="home-product__product-price-old-section"
-                                >
-                                  <span
-                                    class="home-product__product-price-currency"
-                                    >đ</span
-                                  ><span class="home-product__product-price-old"
-                                    >7.890.000</span
-                                  >
-                                </div>
-                                <div
-                                  class="home-product__product-price-new-section"
-                                >
-                                  <span
-                                    class="home-product__product-price-currency-new"
-                                    >đ</span
-                                  ><span class="home-product__product-price-new"
-                                    >6.400.000</span
-                                  >
-                                </div>
-                                <svg
-                                  height="12"
-                                  viewBox="0 0 20 12"
-                                  width="20"
-                                  class="shopee-svg-icon icon-free-shipping"
-                                >
-                                  <g
-                                    fill="none"
-                                    fill-rule="evenodd"
-                                    transform=""
-                                  >
-                                    <rect
-                                      fill="#00bfa5"
-                                      fill-rule="evenodd"
-                                      height="9"
-                                      rx="1"
-                                      width="12"
-                                      x="4"
-                                    ></rect>
-                                    <rect
-                                      height="8"
-                                      rx="1"
-                                      stroke="#00bfa5"
-                                      width="11"
-                                      x="4.5"
-                                      y=".5"
-                                    ></rect>
-                                    <rect
-                                      fill="#00bfa5"
-                                      fill-rule="evenodd"
-                                      height="7"
-                                      rx="1"
-                                      width="7"
-                                      x="13"
-                                      y="2"
-                                    ></rect>
-                                    <rect
-                                      height="6"
-                                      rx="1"
-                                      stroke="#00bfa5"
-                                      width="6"
-                                      x="13.5"
-                                      y="2.5"
-                                    ></rect>
-                                    <circle
-                                      cx="8"
-                                      cy="10"
-                                      fill="#00bfa5"
-                                      r="2"
-                                    ></circle>
-                                    <circle
-                                      cx="15"
-                                      cy="10"
-                                      fill="#00bfa5"
-                                      r="2"
-                                    ></circle>
-                                    <path
-                                      d="m6.7082481 6.7999878h-.7082481v-4.2275391h2.8488017v.5976563h-2.1405536v1.2978515h1.9603297v.5800782h-1.9603297zm2.6762505 0v-3.1904297h.6544972v.4892578h.0505892c.0980164-.3134765.4774351-.5419922.9264138-.5419922.0980165 0 .2276512.0087891.3003731.0263672v.6210938c-.053751-.0175782-.2624312-.038086-.3762568-.038086-.5122152 0-.8758247.3017578-.8758247.75v1.8837891zm3.608988-2.7158203c-.5027297 0-.8536919.328125-.8916338.8261719h1.7390022c-.0158092-.5009766-.3446386-.8261719-.8473684-.8261719zm.8442065 1.8544922h.6544972c-.1549293.571289-.7050863.9228515-1.49238.9228515-.9864885 0-1.5903965-.6269531-1.5903965-1.6464843 0-1.0195313.6165553-1.6669922 1.5872347-1.6669922.9580321 0 1.5366455.6064453 1.5366455 1.6083984v.2197266h-2.4314412v.0351562c.0221328.5595703.373095.9140625.9169284.9140625.4110369 0 .6924391-.1376953.8189119-.3867187zm2.6224996-1.8544922c-.5027297 0-.853692.328125-.8916339.8261719h1.7390022c-.0158091-.5009766-.3446386-.8261719-.8473683-.8261719zm.8442064 1.8544922h.6544972c-.1549293.571289-.7050863.9228515-1.49238.9228515-.9864885 0-1.5903965-.6269531-1.5903965-1.6464843 0-1.0195313.6165553-1.6669922 1.5872347-1.6669922.9580321 0 1.5366455.6064453 1.5366455 1.6083984v.2197266h-2.4314412v.0351562c.0221328.5595703.373095.9140625.9169284.9140625.4110369 0 .6924391-.1376953.8189119-.3867187z"
-                                      fill="#fff"
-                                    ></path>
-                                    <path
-                                      d="m .5 8.5h3.5v1h-3.5z"
-                                      fill="#00bfa5"
-                                    ></path>
-                                    <path
-                                      d="m0 10.15674h3.5v1h-3.5z"
-                                      fill="#00bfa5"
-                                    ></path>
-                                    <circle
-                                      cx="8"
-                                      cy="10"
-                                      fill="#047565"
-                                      r="1"
-                                    ></circle>
-                                    <circle
-                                      cx="15"
-                                      cy="10"
-                                      fill="#047565"
-                                      r="1"
-                                    ></circle>
-                                  </g>
-                                </svg>
-                              </div>
-                              <div
-                                class="home-product__product-rating-vs-sales"
-                              >
-                                <div class="home-product__product-rating">
-                                  <i
-                                    class="fa-solid fa-star home-product__product-rating-star home-product__product-rating-star--active"
-                                  ></i>
-                                  <i
-                                    class="fa-solid fa-star home-product__product-rating-star home-product__product-rating-star--active"
-                                  ></i>
-                                  <i
-                                    class="fa-solid fa-star home-product__product-rating-star home-product__product-rating-star--active"
-                                  ></i>
-                                  <i
-                                    class="fa-solid fa-star home-product__product-rating-star home-product__product-rating-star--active"
-                                  ></i>
-                                  <i
-                                    class="fa-solid fa-star home-product__product-rating-star"
-                                  ></i>
-                                </div>
-                                <span class="home-product__product-sales">
-                                  Đã bán 173
-                                </span>
-                              </div>
-                              <p class="home-product__product-origin">
-                                TP. Hồ Chí Minh
-                              </p>
-                            </div>
-                          </a>
-                        </div>
-                        <div class="col l-2 m-4-4">
-                          <a
-                            href=""
-                            class="home-product__product container-main-product"
-                          >
-                            <div
-                              class="home-product__product-img-process-agency"
-                            >
-                              XỬ LÝ ĐƠN HÀNG BỞI SHOPEE
-                            </div>
-                            <div class="home-product__sales-off">
-                              <span class="home-product__sales-off-percent"
-                                >49%</span
-                              >
-                              <span class="home-product__sales-off-text"
-                                >Giảm</span
-                              >
-                            </div>
-
-                            <div
-                              class="home-product__product-img"
-                              style="
-                                background-image: url(./assets/img/suggest-product-1.png);
-                              "
-                            >
-                              <img
-                                src="./assets/img/product-badge.png"
-                                alt="Product Badge"
-                                class="home-product__product-badge"
-                              />
-                            </div>
-                            <div class="home-product__product-detail">
-                              <h4 class="home-product__product-name">
-                                [Mã ELBAU150 giảm 8% đơn 500K] Màn Hình LG
-                                27QN600 27" IPS QHD (2560x1440) HDR AMD Freesync
-                                - Chính Hãng
-                              </h4>
-                              <span class="home-product__product-special">
-                                #ShopDacBiet
-                              </span>
-                              <div class="home-product__product-price">
-                                <div
-                                  class="home-product__product-price-old-section"
-                                >
-                                  <span
-                                    class="home-product__product-price-currency"
-                                    >đ</span
-                                  ><span class="home-product__product-price-old"
-                                    >7.890.000</span
-                                  >
-                                </div>
-                                <div
-                                  class="home-product__product-price-new-section"
-                                >
-                                  <span
-                                    class="home-product__product-price-currency-new"
-                                    >đ</span
-                                  ><span class="home-product__product-price-new"
-                                    >6.400.000</span
-                                  >
-                                </div>
-                                <svg
-                                  height="12"
-                                  viewBox="0 0 20 12"
-                                  width="20"
-                                  class="shopee-svg-icon icon-free-shipping"
-                                >
-                                  <g
-                                    fill="none"
-                                    fill-rule="evenodd"
-                                    transform=""
-                                  >
-                                    <rect
-                                      fill="#00bfa5"
-                                      fill-rule="evenodd"
-                                      height="9"
-                                      rx="1"
-                                      width="12"
-                                      x="4"
-                                    ></rect>
-                                    <rect
-                                      height="8"
-                                      rx="1"
-                                      stroke="#00bfa5"
-                                      width="11"
-                                      x="4.5"
-                                      y=".5"
-                                    ></rect>
-                                    <rect
-                                      fill="#00bfa5"
-                                      fill-rule="evenodd"
-                                      height="7"
-                                      rx="1"
-                                      width="7"
-                                      x="13"
-                                      y="2"
-                                    ></rect>
-                                    <rect
-                                      height="6"
-                                      rx="1"
-                                      stroke="#00bfa5"
-                                      width="6"
-                                      x="13.5"
-                                      y="2.5"
-                                    ></rect>
-                                    <circle
-                                      cx="8"
-                                      cy="10"
-                                      fill="#00bfa5"
-                                      r="2"
-                                    ></circle>
-                                    <circle
-                                      cx="15"
-                                      cy="10"
-                                      fill="#00bfa5"
-                                      r="2"
-                                    ></circle>
-                                    <path
-                                      d="m6.7082481 6.7999878h-.7082481v-4.2275391h2.8488017v.5976563h-2.1405536v1.2978515h1.9603297v.5800782h-1.9603297zm2.6762505 0v-3.1904297h.6544972v.4892578h.0505892c.0980164-.3134765.4774351-.5419922.9264138-.5419922.0980165 0 .2276512.0087891.3003731.0263672v.6210938c-.053751-.0175782-.2624312-.038086-.3762568-.038086-.5122152 0-.8758247.3017578-.8758247.75v1.8837891zm3.608988-2.7158203c-.5027297 0-.8536919.328125-.8916338.8261719h1.7390022c-.0158092-.5009766-.3446386-.8261719-.8473684-.8261719zm.8442065 1.8544922h.6544972c-.1549293.571289-.7050863.9228515-1.49238.9228515-.9864885 0-1.5903965-.6269531-1.5903965-1.6464843 0-1.0195313.6165553-1.6669922 1.5872347-1.6669922.9580321 0 1.5366455.6064453 1.5366455 1.6083984v.2197266h-2.4314412v.0351562c.0221328.5595703.373095.9140625.9169284.9140625.4110369 0 .6924391-.1376953.8189119-.3867187zm2.6224996-1.8544922c-.5027297 0-.853692.328125-.8916339.8261719h1.7390022c-.0158091-.5009766-.3446386-.8261719-.8473683-.8261719zm.8442064 1.8544922h.6544972c-.1549293.571289-.7050863.9228515-1.49238.9228515-.9864885 0-1.5903965-.6269531-1.5903965-1.6464843 0-1.0195313.6165553-1.6669922 1.5872347-1.6669922.9580321 0 1.5366455.6064453 1.5366455 1.6083984v.2197266h-2.4314412v.0351562c.0221328.5595703.373095.9140625.9169284.9140625.4110369 0 .6924391-.1376953.8189119-.3867187z"
-                                      fill="#fff"
-                                    ></path>
-                                    <path
-                                      d="m .5 8.5h3.5v1h-3.5z"
-                                      fill="#00bfa5"
-                                    ></path>
-                                    <path
-                                      d="m0 10.15674h3.5v1h-3.5z"
-                                      fill="#00bfa5"
-                                    ></path>
-                                    <circle
-                                      cx="8"
-                                      cy="10"
-                                      fill="#047565"
-                                      r="1"
-                                    ></circle>
-                                    <circle
-                                      cx="15"
-                                      cy="10"
-                                      fill="#047565"
-                                      r="1"
-                                    ></circle>
-                                  </g>
-                                </svg>
-                              </div>
-                              <div
-                                class="home-product__product-rating-vs-sales"
-                              >
-                                <div class="home-product__product-rating">
-                                  <i
-                                    class="fa-solid fa-star home-product__product-rating-star home-product__product-rating-star--active"
-                                  ></i>
-                                  <i
-                                    class="fa-solid fa-star home-product__product-rating-star home-product__product-rating-star--active"
-                                  ></i>
-                                  <i
-                                    class="fa-solid fa-star home-product__product-rating-star home-product__product-rating-star--active"
-                                  ></i>
-                                  <i
-                                    class="fa-solid fa-star home-product__product-rating-star home-product__product-rating-star--active"
-                                  ></i>
-                                  <i
-                                    class="fa-solid fa-star home-product__product-rating-star"
-                                  ></i>
-                                </div>
-                                <span class="home-product__product-sales">
-                                  Đã bán 173
-                                </span>
-                              </div>
-                              <p class="home-product__product-origin">
-                                TP. Hồ Chí Minh
-                              </p>
-                            </div>
-                          </a>
-                        </div>
-                        <div class="col l-2 m-4-4">
-                          <a
-                            href=""
-                            class="home-product__product container-main-product"
-                          >
-                            <div
-                              class="home-product__product-img-process-agency"
-                            >
-                              XỬ LÝ ĐƠN HÀNG BỞI SHOPEE
-                            </div>
-                            <div class="home-product__sales-off">
-                              <span class="home-product__sales-off-percent"
-                                >49%</span
-                              >
-                              <span class="home-product__sales-off-text"
-                                >Giảm</span
-                              >
-                            </div>
-
-                            <div
-                              class="home-product__product-img"
-                              style="
-                                background-image: url(./assets/img/suggest-product-1.png);
-                              "
-                            >
-                              <img
-                                src="./assets/img/product-badge.png"
-                                alt="Product Badge"
-                                class="home-product__product-badge"
-                              />
-                            </div>
-                            <div class="home-product__product-detail">
-                              <h4 class="home-product__product-name">
-                                [Mã ELBAU150 giảm 8% đơn 500K] Màn Hình LG
-                                27QN600 27" IPS QHD (2560x1440) HDR AMD Freesync
-                                - Chính Hãng
-                              </h4>
-                              <span class="home-product__product-special">
-                                #ShopDacBiet
-                              </span>
-                              <div class="home-product__product-price">
-                                <div
-                                  class="home-product__product-price-old-section"
-                                >
-                                  <span
-                                    class="home-product__product-price-currency"
-                                    >đ</span
-                                  ><span class="home-product__product-price-old"
-                                    >7.890.000</span
-                                  >
-                                </div>
-                                <div
-                                  class="home-product__product-price-new-section"
-                                >
-                                  <span
-                                    class="home-product__product-price-currency-new"
-                                    >đ</span
-                                  ><span class="home-product__product-price-new"
-                                    >6.400.000</span
-                                  >
-                                </div>
-                                <svg
-                                  height="12"
-                                  viewBox="0 0 20 12"
-                                  width="20"
-                                  class="shopee-svg-icon icon-free-shipping"
-                                >
-                                  <g
-                                    fill="none"
-                                    fill-rule="evenodd"
-                                    transform=""
-                                  >
-                                    <rect
-                                      fill="#00bfa5"
-                                      fill-rule="evenodd"
-                                      height="9"
-                                      rx="1"
-                                      width="12"
-                                      x="4"
-                                    ></rect>
-                                    <rect
-                                      height="8"
-                                      rx="1"
-                                      stroke="#00bfa5"
-                                      width="11"
-                                      x="4.5"
-                                      y=".5"
-                                    ></rect>
-                                    <rect
-                                      fill="#00bfa5"
-                                      fill-rule="evenodd"
-                                      height="7"
-                                      rx="1"
-                                      width="7"
-                                      x="13"
-                                      y="2"
-                                    ></rect>
-                                    <rect
-                                      height="6"
-                                      rx="1"
-                                      stroke="#00bfa5"
-                                      width="6"
-                                      x="13.5"
-                                      y="2.5"
-                                    ></rect>
-                                    <circle
-                                      cx="8"
-                                      cy="10"
-                                      fill="#00bfa5"
-                                      r="2"
-                                    ></circle>
-                                    <circle
-                                      cx="15"
-                                      cy="10"
-                                      fill="#00bfa5"
-                                      r="2"
-                                    ></circle>
-                                    <path
-                                      d="m6.7082481 6.7999878h-.7082481v-4.2275391h2.8488017v.5976563h-2.1405536v1.2978515h1.9603297v.5800782h-1.9603297zm2.6762505 0v-3.1904297h.6544972v.4892578h.0505892c.0980164-.3134765.4774351-.5419922.9264138-.5419922.0980165 0 .2276512.0087891.3003731.0263672v.6210938c-.053751-.0175782-.2624312-.038086-.3762568-.038086-.5122152 0-.8758247.3017578-.8758247.75v1.8837891zm3.608988-2.7158203c-.5027297 0-.8536919.328125-.8916338.8261719h1.7390022c-.0158092-.5009766-.3446386-.8261719-.8473684-.8261719zm.8442065 1.8544922h.6544972c-.1549293.571289-.7050863.9228515-1.49238.9228515-.9864885 0-1.5903965-.6269531-1.5903965-1.6464843 0-1.0195313.6165553-1.6669922 1.5872347-1.6669922.9580321 0 1.5366455.6064453 1.5366455 1.6083984v.2197266h-2.4314412v.0351562c.0221328.5595703.373095.9140625.9169284.9140625.4110369 0 .6924391-.1376953.8189119-.3867187zm2.6224996-1.8544922c-.5027297 0-.853692.328125-.8916339.8261719h1.7390022c-.0158091-.5009766-.3446386-.8261719-.8473683-.8261719zm.8442064 1.8544922h.6544972c-.1549293.571289-.7050863.9228515-1.49238.9228515-.9864885 0-1.5903965-.6269531-1.5903965-1.6464843 0-1.0195313.6165553-1.6669922 1.5872347-1.6669922.9580321 0 1.5366455.6064453 1.5366455 1.6083984v.2197266h-2.4314412v.0351562c.0221328.5595703.373095.9140625.9169284.9140625.4110369 0 .6924391-.1376953.8189119-.3867187z"
-                                      fill="#fff"
-                                    ></path>
-                                    <path
-                                      d="m .5 8.5h3.5v1h-3.5z"
-                                      fill="#00bfa5"
-                                    ></path>
-                                    <path
-                                      d="m0 10.15674h3.5v1h-3.5z"
-                                      fill="#00bfa5"
-                                    ></path>
-                                    <circle
-                                      cx="8"
-                                      cy="10"
-                                      fill="#047565"
-                                      r="1"
-                                    ></circle>
-                                    <circle
-                                      cx="15"
-                                      cy="10"
-                                      fill="#047565"
-                                      r="1"
-                                    ></circle>
-                                  </g>
-                                </svg>
-                              </div>
-                              <div
-                                class="home-product__product-rating-vs-sales"
-                              >
-                                <div class="home-product__product-rating">
-                                  <i
-                                    class="fa-solid fa-star home-product__product-rating-star home-product__product-rating-star--active"
-                                  ></i>
-                                  <i
-                                    class="fa-solid fa-star home-product__product-rating-star home-product__product-rating-star--active"
-                                  ></i>
-                                  <i
-                                    class="fa-solid fa-star home-product__product-rating-star home-product__product-rating-star--active"
-                                  ></i>
-                                  <i
-                                    class="fa-solid fa-star home-product__product-rating-star home-product__product-rating-star--active"
-                                  ></i>
-                                  <i
-                                    class="fa-solid fa-star home-product__product-rating-star"
-                                  ></i>
-                                </div>
-                                <span class="home-product__product-sales">
-                                  Đã bán 173
-                                </span>
-                              </div>
-                              <p class="home-product__product-origin">
-                                TP. Hồ Chí Minh
-                              </p>
-                            </div>
-                          </a>
-                        </div>
-                        <div class="col l-2 m-4-4">
-                          <a
-                            href=""
-                            class="home-product__product container-main-product"
-                          >
-                            <div
-                              class="home-product__product-img-process-agency"
-                            >
-                              XỬ LÝ ĐƠN HÀNG BỞI SHOPEE
-                            </div>
-                            <div class="home-product__sales-off">
-                              <span class="home-product__sales-off-percent"
-                                >49%</span
-                              >
-                              <span class="home-product__sales-off-text"
-                                >Giảm</span
-                              >
-                            </div>
-
-                            <div
-                              class="home-product__product-img"
-                              style="
-                                background-image: url(./assets/img/suggest-product-1.png);
-                              "
-                            >
-                              <img
-                                src="./assets/img/product-badge.png"
-                                alt="Product Badge"
-                                class="home-product__product-badge"
-                              />
-                            </div>
-                            <div class="home-product__product-detail">
-                              <h4 class="home-product__product-name">
-                                [Mã ELBAU150 giảm 8% đơn 500K] Màn Hình LG
-                                27QN600 27" IPS QHD (2560x1440) HDR AMD Freesync
-                                - Chính Hãng
-                              </h4>
-                              <span class="home-product__product-special">
-                                #ShopDacBiet
-                              </span>
-                              <div class="home-product__product-price">
-                                <div
-                                  class="home-product__product-price-old-section"
-                                >
-                                  <span
-                                    class="home-product__product-price-currency"
-                                    >đ</span
-                                  ><span class="home-product__product-price-old"
-                                    >7.890.000</span
-                                  >
-                                </div>
-                                <div
-                                  class="home-product__product-price-new-section"
-                                >
-                                  <span
-                                    class="home-product__product-price-currency-new"
-                                    >đ</span
-                                  ><span class="home-product__product-price-new"
-                                    >6.400.000</span
-                                  >
-                                </div>
-                                <svg
-                                  height="12"
-                                  viewBox="0 0 20 12"
-                                  width="20"
-                                  class="shopee-svg-icon icon-free-shipping"
-                                >
-                                  <g
-                                    fill="none"
-                                    fill-rule="evenodd"
-                                    transform=""
-                                  >
-                                    <rect
-                                      fill="#00bfa5"
-                                      fill-rule="evenodd"
-                                      height="9"
-                                      rx="1"
-                                      width="12"
-                                      x="4"
-                                    ></rect>
-                                    <rect
-                                      height="8"
-                                      rx="1"
-                                      stroke="#00bfa5"
-                                      width="11"
-                                      x="4.5"
-                                      y=".5"
-                                    ></rect>
-                                    <rect
-                                      fill="#00bfa5"
-                                      fill-rule="evenodd"
-                                      height="7"
-                                      rx="1"
-                                      width="7"
-                                      x="13"
-                                      y="2"
-                                    ></rect>
-                                    <rect
-                                      height="6"
-                                      rx="1"
-                                      stroke="#00bfa5"
-                                      width="6"
-                                      x="13.5"
-                                      y="2.5"
-                                    ></rect>
-                                    <circle
-                                      cx="8"
-                                      cy="10"
-                                      fill="#00bfa5"
-                                      r="2"
-                                    ></circle>
-                                    <circle
-                                      cx="15"
-                                      cy="10"
-                                      fill="#00bfa5"
-                                      r="2"
-                                    ></circle>
-                                    <path
-                                      d="m6.7082481 6.7999878h-.7082481v-4.2275391h2.8488017v.5976563h-2.1405536v1.2978515h1.9603297v.5800782h-1.9603297zm2.6762505 0v-3.1904297h.6544972v.4892578h.0505892c.0980164-.3134765.4774351-.5419922.9264138-.5419922.0980165 0 .2276512.0087891.3003731.0263672v.6210938c-.053751-.0175782-.2624312-.038086-.3762568-.038086-.5122152 0-.8758247.3017578-.8758247.75v1.8837891zm3.608988-2.7158203c-.5027297 0-.8536919.328125-.8916338.8261719h1.7390022c-.0158092-.5009766-.3446386-.8261719-.8473684-.8261719zm.8442065 1.8544922h.6544972c-.1549293.571289-.7050863.9228515-1.49238.9228515-.9864885 0-1.5903965-.6269531-1.5903965-1.6464843 0-1.0195313.6165553-1.6669922 1.5872347-1.6669922.9580321 0 1.5366455.6064453 1.5366455 1.6083984v.2197266h-2.4314412v.0351562c.0221328.5595703.373095.9140625.9169284.9140625.4110369 0 .6924391-.1376953.8189119-.3867187zm2.6224996-1.8544922c-.5027297 0-.853692.328125-.8916339.8261719h1.7390022c-.0158091-.5009766-.3446386-.8261719-.8473683-.8261719zm.8442064 1.8544922h.6544972c-.1549293.571289-.7050863.9228515-1.49238.9228515-.9864885 0-1.5903965-.6269531-1.5903965-1.6464843 0-1.0195313.6165553-1.6669922 1.5872347-1.6669922.9580321 0 1.5366455.6064453 1.5366455 1.6083984v.2197266h-2.4314412v.0351562c.0221328.5595703.373095.9140625.9169284.9140625.4110369 0 .6924391-.1376953.8189119-.3867187z"
-                                      fill="#fff"
-                                    ></path>
-                                    <path
-                                      d="m .5 8.5h3.5v1h-3.5z"
-                                      fill="#00bfa5"
-                                    ></path>
-                                    <path
-                                      d="m0 10.15674h3.5v1h-3.5z"
-                                      fill="#00bfa5"
-                                    ></path>
-                                    <circle
-                                      cx="8"
-                                      cy="10"
-                                      fill="#047565"
-                                      r="1"
-                                    ></circle>
-                                    <circle
-                                      cx="15"
-                                      cy="10"
-                                      fill="#047565"
-                                      r="1"
-                                    ></circle>
-                                  </g>
-                                </svg>
-                              </div>
-                              <div
-                                class="home-product__product-rating-vs-sales"
-                              >
-                                <div class="home-product__product-rating">
-                                  <i
-                                    class="fa-solid fa-star home-product__product-rating-star home-product__product-rating-star--active"
-                                  ></i>
-                                  <i
-                                    class="fa-solid fa-star home-product__product-rating-star home-product__product-rating-star--active"
-                                  ></i>
-                                  <i
-                                    class="fa-solid fa-star home-product__product-rating-star home-product__product-rating-star--active"
-                                  ></i>
-                                  <i
-                                    class="fa-solid fa-star home-product__product-rating-star home-product__product-rating-star--active"
-                                  ></i>
-                                  <i
-                                    class="fa-solid fa-star home-product__product-rating-star"
-                                  ></i>
-                                </div>
-                                <span class="home-product__product-sales">
-                                  Đã bán 173
-                                </span>
-                              </div>
-                              <p class="home-product__product-origin">
-                                TP. Hồ Chí Minh
-                              </p>
-                            </div>
-                          </a>
-                        </div>
-                        <div class="col l-2 m-4-4">
+                        <div class="col l-2-4 m-2-4 c-6">
                           <a
                             href=""
                             class="home-product__product container-main-product"
@@ -8610,7 +7818,7 @@
                     </div>
                     <div class="container-main-product-row">
                       <div class="row sm-gutter">
-                        <div class="col l-2 m-4-4">
+                        <div class="col l-2-4 m-2-4 c-6">
                           <a
                             href=""
                             class="home-product__product container-main-product"
@@ -8784,7 +7992,7 @@
                             </div>
                           </a>
                         </div>
-                        <div class="col l-2 m-4-4">
+                        <div class="col l-2-4 m-2-4 c-6">
                           <a
                             href=""
                             class="home-product__product container-main-product"
@@ -8958,7 +8166,7 @@
                             </div>
                           </a>
                         </div>
-                        <div class="col l-2 m-4-4">
+                        <div class="col l-2-4 m-2-4 c-6">
                           <a
                             href=""
                             class="home-product__product container-main-product"
@@ -9132,7 +8340,7 @@
                             </div>
                           </a>
                         </div>
-                        <div class="col l-2 m-4-4">
+                        <div class="col l-2-4 m-2-4 c-6">
                           <a
                             href=""
                             class="home-product__product container-main-product"
@@ -9306,7 +8514,7 @@
                             </div>
                           </a>
                         </div>
-                        <div class="col l-2 m-4-4">
+                        <div class="col l-2-4 m-2-4 c-6">
                           <a
                             href=""
                             class="home-product__product container-main-product"
@@ -9484,7 +8692,7 @@
                     </div>
                     <div class="container-main-product-row">
                       <div class="row sm-gutter">
-                        <div class="col l-2 m-4-4">
+                        <div class="col l-2-4 m-2-4 c-6">
                           <a
                             href=""
                             class="home-product__product container-main-product"
@@ -9658,7 +8866,7 @@
                             </div>
                           </a>
                         </div>
-                        <div class="col l-2 m-4-4">
+                        <div class="col l-2-4 m-2-4 c-6">
                           <a
                             href=""
                             class="home-product__product container-main-product"
@@ -9832,7 +9040,7 @@
                             </div>
                           </a>
                         </div>
-                        <div class="col l-2 m-4-4">
+                        <div class="col l-2-4 m-2-4 c-6">
                           <a
                             href=""
                             class="home-product__product container-main-product"
@@ -10006,7 +9214,7 @@
                             </div>
                           </a>
                         </div>
-                        <div class="col l-2 m-4-4">
+                        <div class="col l-2-4 m-2-4 c-6">
                           <a
                             href=""
                             class="home-product__product container-main-product"
@@ -10180,7 +9388,881 @@
                             </div>
                           </a>
                         </div>
-                        <div class="col l-2 m-4-4">
+                        <div class="col l-2-4 m-2-4 c-6">
+                          <a
+                            href=""
+                            class="home-product__product container-main-product"
+                          >
+                            <div
+                              class="home-product__product-img-process-agency"
+                            >
+                              XỬ LÝ ĐƠN HÀNG BỞI SHOPEE
+                            </div>
+                            <div class="home-product__sales-off">
+                              <span class="home-product__sales-off-percent"
+                                >49%</span
+                              >
+                              <span class="home-product__sales-off-text"
+                                >Giảm</span
+                              >
+                            </div>
+
+                            <div
+                              class="home-product__product-img"
+                              style="
+                                background-image: url(./assets/img/suggest-product-1.png);
+                              "
+                            >
+                              <img
+                                src="./assets/img/product-badge.png"
+                                alt="Product Badge"
+                                class="home-product__product-badge"
+                              />
+                            </div>
+                            <div class="home-product__product-detail">
+                              <h4 class="home-product__product-name">
+                                [Mã ELBAU150 giảm 8% đơn 500K] Màn Hình LG
+                                27QN600 27" IPS QHD (2560x1440) HDR AMD Freesync
+                                - Chính Hãng
+                              </h4>
+                              <span class="home-product__product-special">
+                                #ShopDacBiet
+                              </span>
+                              <div class="home-product__product-price">
+                                <div
+                                  class="home-product__product-price-old-section"
+                                >
+                                  <span
+                                    class="home-product__product-price-currency"
+                                    >đ</span
+                                  ><span class="home-product__product-price-old"
+                                    >7.890.000</span
+                                  >
+                                </div>
+                                <div
+                                  class="home-product__product-price-new-section"
+                                >
+                                  <span
+                                    class="home-product__product-price-currency-new"
+                                    >đ</span
+                                  ><span class="home-product__product-price-new"
+                                    >6.400.000</span
+                                  >
+                                </div>
+                                <svg
+                                  height="12"
+                                  viewBox="0 0 20 12"
+                                  width="20"
+                                  class="shopee-svg-icon icon-free-shipping"
+                                >
+                                  <g
+                                    fill="none"
+                                    fill-rule="evenodd"
+                                    transform=""
+                                  >
+                                    <rect
+                                      fill="#00bfa5"
+                                      fill-rule="evenodd"
+                                      height="9"
+                                      rx="1"
+                                      width="12"
+                                      x="4"
+                                    ></rect>
+                                    <rect
+                                      height="8"
+                                      rx="1"
+                                      stroke="#00bfa5"
+                                      width="11"
+                                      x="4.5"
+                                      y=".5"
+                                    ></rect>
+                                    <rect
+                                      fill="#00bfa5"
+                                      fill-rule="evenodd"
+                                      height="7"
+                                      rx="1"
+                                      width="7"
+                                      x="13"
+                                      y="2"
+                                    ></rect>
+                                    <rect
+                                      height="6"
+                                      rx="1"
+                                      stroke="#00bfa5"
+                                      width="6"
+                                      x="13.5"
+                                      y="2.5"
+                                    ></rect>
+                                    <circle
+                                      cx="8"
+                                      cy="10"
+                                      fill="#00bfa5"
+                                      r="2"
+                                    ></circle>
+                                    <circle
+                                      cx="15"
+                                      cy="10"
+                                      fill="#00bfa5"
+                                      r="2"
+                                    ></circle>
+                                    <path
+                                      d="m6.7082481 6.7999878h-.7082481v-4.2275391h2.8488017v.5976563h-2.1405536v1.2978515h1.9603297v.5800782h-1.9603297zm2.6762505 0v-3.1904297h.6544972v.4892578h.0505892c.0980164-.3134765.4774351-.5419922.9264138-.5419922.0980165 0 .2276512.0087891.3003731.0263672v.6210938c-.053751-.0175782-.2624312-.038086-.3762568-.038086-.5122152 0-.8758247.3017578-.8758247.75v1.8837891zm3.608988-2.7158203c-.5027297 0-.8536919.328125-.8916338.8261719h1.7390022c-.0158092-.5009766-.3446386-.8261719-.8473684-.8261719zm.8442065 1.8544922h.6544972c-.1549293.571289-.7050863.9228515-1.49238.9228515-.9864885 0-1.5903965-.6269531-1.5903965-1.6464843 0-1.0195313.6165553-1.6669922 1.5872347-1.6669922.9580321 0 1.5366455.6064453 1.5366455 1.6083984v.2197266h-2.4314412v.0351562c.0221328.5595703.373095.9140625.9169284.9140625.4110369 0 .6924391-.1376953.8189119-.3867187zm2.6224996-1.8544922c-.5027297 0-.853692.328125-.8916339.8261719h1.7390022c-.0158091-.5009766-.3446386-.8261719-.8473683-.8261719zm.8442064 1.8544922h.6544972c-.1549293.571289-.7050863.9228515-1.49238.9228515-.9864885 0-1.5903965-.6269531-1.5903965-1.6464843 0-1.0195313.6165553-1.6669922 1.5872347-1.6669922.9580321 0 1.5366455.6064453 1.5366455 1.6083984v.2197266h-2.4314412v.0351562c.0221328.5595703.373095.9140625.9169284.9140625.4110369 0 .6924391-.1376953.8189119-.3867187z"
+                                      fill="#fff"
+                                    ></path>
+                                    <path
+                                      d="m .5 8.5h3.5v1h-3.5z"
+                                      fill="#00bfa5"
+                                    ></path>
+                                    <path
+                                      d="m0 10.15674h3.5v1h-3.5z"
+                                      fill="#00bfa5"
+                                    ></path>
+                                    <circle
+                                      cx="8"
+                                      cy="10"
+                                      fill="#047565"
+                                      r="1"
+                                    ></circle>
+                                    <circle
+                                      cx="15"
+                                      cy="10"
+                                      fill="#047565"
+                                      r="1"
+                                    ></circle>
+                                  </g>
+                                </svg>
+                              </div>
+                              <div
+                                class="home-product__product-rating-vs-sales"
+                              >
+                                <div class="home-product__product-rating">
+                                  <i
+                                    class="fa-solid fa-star home-product__product-rating-star home-product__product-rating-star--active"
+                                  ></i>
+                                  <i
+                                    class="fa-solid fa-star home-product__product-rating-star home-product__product-rating-star--active"
+                                  ></i>
+                                  <i
+                                    class="fa-solid fa-star home-product__product-rating-star home-product__product-rating-star--active"
+                                  ></i>
+                                  <i
+                                    class="fa-solid fa-star home-product__product-rating-star home-product__product-rating-star--active"
+                                  ></i>
+                                  <i
+                                    class="fa-solid fa-star home-product__product-rating-star"
+                                  ></i>
+                                </div>
+                                <span class="home-product__product-sales">
+                                  Đã bán 173
+                                </span>
+                              </div>
+                              <p class="home-product__product-origin">
+                                TP. Hồ Chí Minh
+                              </p>
+                            </div>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="container-main-product-row">
+                      <div class="row sm-gutter">
+                        <div class="col l-2-4 m-2-4 c-6">
+                          <a
+                            href=""
+                            class="home-product__product container-main-product"
+                          >
+                            <div
+                              class="home-product__product-img-process-agency"
+                            >
+                              XỬ LÝ ĐƠN HÀNG BỞI SHOPEE
+                            </div>
+                            <div class="home-product__sales-off">
+                              <span class="home-product__sales-off-percent"
+                                >49%</span
+                              >
+                              <span class="home-product__sales-off-text"
+                                >Giảm</span
+                              >
+                            </div>
+
+                            <div
+                              class="home-product__product-img"
+                              style="
+                                background-image: url(./assets/img/suggest-product-1.png);
+                              "
+                            >
+                              <img
+                                src="./assets/img/product-badge.png"
+                                alt="Product Badge"
+                                class="home-product__product-badge"
+                              />
+                            </div>
+                            <div class="home-product__product-detail">
+                              <h4 class="home-product__product-name">
+                                [Mã ELBAU150 giảm 8% đơn 500K] Màn Hình LG
+                                27QN600 27" IPS QHD (2560x1440) HDR AMD Freesync
+                                - Chính Hãng
+                              </h4>
+                              <span class="home-product__product-special">
+                                #ShopDacBiet
+                              </span>
+                              <div class="home-product__product-price">
+                                <div
+                                  class="home-product__product-price-old-section"
+                                >
+                                  <span
+                                    class="home-product__product-price-currency"
+                                    >đ</span
+                                  ><span class="home-product__product-price-old"
+                                    >7.890.000</span
+                                  >
+                                </div>
+                                <div
+                                  class="home-product__product-price-new-section"
+                                >
+                                  <span
+                                    class="home-product__product-price-currency-new"
+                                    >đ</span
+                                  ><span class="home-product__product-price-new"
+                                    >6.400.000</span
+                                  >
+                                </div>
+                                <svg
+                                  height="12"
+                                  viewBox="0 0 20 12"
+                                  width="20"
+                                  class="shopee-svg-icon icon-free-shipping"
+                                >
+                                  <g
+                                    fill="none"
+                                    fill-rule="evenodd"
+                                    transform=""
+                                  >
+                                    <rect
+                                      fill="#00bfa5"
+                                      fill-rule="evenodd"
+                                      height="9"
+                                      rx="1"
+                                      width="12"
+                                      x="4"
+                                    ></rect>
+                                    <rect
+                                      height="8"
+                                      rx="1"
+                                      stroke="#00bfa5"
+                                      width="11"
+                                      x="4.5"
+                                      y=".5"
+                                    ></rect>
+                                    <rect
+                                      fill="#00bfa5"
+                                      fill-rule="evenodd"
+                                      height="7"
+                                      rx="1"
+                                      width="7"
+                                      x="13"
+                                      y="2"
+                                    ></rect>
+                                    <rect
+                                      height="6"
+                                      rx="1"
+                                      stroke="#00bfa5"
+                                      width="6"
+                                      x="13.5"
+                                      y="2.5"
+                                    ></rect>
+                                    <circle
+                                      cx="8"
+                                      cy="10"
+                                      fill="#00bfa5"
+                                      r="2"
+                                    ></circle>
+                                    <circle
+                                      cx="15"
+                                      cy="10"
+                                      fill="#00bfa5"
+                                      r="2"
+                                    ></circle>
+                                    <path
+                                      d="m6.7082481 6.7999878h-.7082481v-4.2275391h2.8488017v.5976563h-2.1405536v1.2978515h1.9603297v.5800782h-1.9603297zm2.6762505 0v-3.1904297h.6544972v.4892578h.0505892c.0980164-.3134765.4774351-.5419922.9264138-.5419922.0980165 0 .2276512.0087891.3003731.0263672v.6210938c-.053751-.0175782-.2624312-.038086-.3762568-.038086-.5122152 0-.8758247.3017578-.8758247.75v1.8837891zm3.608988-2.7158203c-.5027297 0-.8536919.328125-.8916338.8261719h1.7390022c-.0158092-.5009766-.3446386-.8261719-.8473684-.8261719zm.8442065 1.8544922h.6544972c-.1549293.571289-.7050863.9228515-1.49238.9228515-.9864885 0-1.5903965-.6269531-1.5903965-1.6464843 0-1.0195313.6165553-1.6669922 1.5872347-1.6669922.9580321 0 1.5366455.6064453 1.5366455 1.6083984v.2197266h-2.4314412v.0351562c.0221328.5595703.373095.9140625.9169284.9140625.4110369 0 .6924391-.1376953.8189119-.3867187zm2.6224996-1.8544922c-.5027297 0-.853692.328125-.8916339.8261719h1.7390022c-.0158091-.5009766-.3446386-.8261719-.8473683-.8261719zm.8442064 1.8544922h.6544972c-.1549293.571289-.7050863.9228515-1.49238.9228515-.9864885 0-1.5903965-.6269531-1.5903965-1.6464843 0-1.0195313.6165553-1.6669922 1.5872347-1.6669922.9580321 0 1.5366455.6064453 1.5366455 1.6083984v.2197266h-2.4314412v.0351562c.0221328.5595703.373095.9140625.9169284.9140625.4110369 0 .6924391-.1376953.8189119-.3867187z"
+                                      fill="#fff"
+                                    ></path>
+                                    <path
+                                      d="m .5 8.5h3.5v1h-3.5z"
+                                      fill="#00bfa5"
+                                    ></path>
+                                    <path
+                                      d="m0 10.15674h3.5v1h-3.5z"
+                                      fill="#00bfa5"
+                                    ></path>
+                                    <circle
+                                      cx="8"
+                                      cy="10"
+                                      fill="#047565"
+                                      r="1"
+                                    ></circle>
+                                    <circle
+                                      cx="15"
+                                      cy="10"
+                                      fill="#047565"
+                                      r="1"
+                                    ></circle>
+                                  </g>
+                                </svg>
+                              </div>
+                              <div
+                                class="home-product__product-rating-vs-sales"
+                              >
+                                <div class="home-product__product-rating">
+                                  <i
+                                    class="fa-solid fa-star home-product__product-rating-star home-product__product-rating-star--active"
+                                  ></i>
+                                  <i
+                                    class="fa-solid fa-star home-product__product-rating-star home-product__product-rating-star--active"
+                                  ></i>
+                                  <i
+                                    class="fa-solid fa-star home-product__product-rating-star home-product__product-rating-star--active"
+                                  ></i>
+                                  <i
+                                    class="fa-solid fa-star home-product__product-rating-star home-product__product-rating-star--active"
+                                  ></i>
+                                  <i
+                                    class="fa-solid fa-star home-product__product-rating-star"
+                                  ></i>
+                                </div>
+                                <span class="home-product__product-sales">
+                                  Đã bán 173
+                                </span>
+                              </div>
+                              <p class="home-product__product-origin">
+                                TP. Hồ Chí Minh
+                              </p>
+                            </div>
+                          </a>
+                        </div>
+                        <div class="col l-2-4 m-2-4 c-6">
+                          <a
+                            href=""
+                            class="home-product__product container-main-product"
+                          >
+                            <div
+                              class="home-product__product-img-process-agency"
+                            >
+                              XỬ LÝ ĐƠN HÀNG BỞI SHOPEE
+                            </div>
+                            <div class="home-product__sales-off">
+                              <span class="home-product__sales-off-percent"
+                                >49%</span
+                              >
+                              <span class="home-product__sales-off-text"
+                                >Giảm</span
+                              >
+                            </div>
+
+                            <div
+                              class="home-product__product-img"
+                              style="
+                                background-image: url(./assets/img/suggest-product-1.png);
+                              "
+                            >
+                              <img
+                                src="./assets/img/product-badge.png"
+                                alt="Product Badge"
+                                class="home-product__product-badge"
+                              />
+                            </div>
+                            <div class="home-product__product-detail">
+                              <h4 class="home-product__product-name">
+                                [Mã ELBAU150 giảm 8% đơn 500K] Màn Hình LG
+                                27QN600 27" IPS QHD (2560x1440) HDR AMD Freesync
+                                - Chính Hãng
+                              </h4>
+                              <span class="home-product__product-special">
+                                #ShopDacBiet
+                              </span>
+                              <div class="home-product__product-price">
+                                <div
+                                  class="home-product__product-price-old-section"
+                                >
+                                  <span
+                                    class="home-product__product-price-currency"
+                                    >đ</span
+                                  ><span class="home-product__product-price-old"
+                                    >7.890.000</span
+                                  >
+                                </div>
+                                <div
+                                  class="home-product__product-price-new-section"
+                                >
+                                  <span
+                                    class="home-product__product-price-currency-new"
+                                    >đ</span
+                                  ><span class="home-product__product-price-new"
+                                    >6.400.000</span
+                                  >
+                                </div>
+                                <svg
+                                  height="12"
+                                  viewBox="0 0 20 12"
+                                  width="20"
+                                  class="shopee-svg-icon icon-free-shipping"
+                                >
+                                  <g
+                                    fill="none"
+                                    fill-rule="evenodd"
+                                    transform=""
+                                  >
+                                    <rect
+                                      fill="#00bfa5"
+                                      fill-rule="evenodd"
+                                      height="9"
+                                      rx="1"
+                                      width="12"
+                                      x="4"
+                                    ></rect>
+                                    <rect
+                                      height="8"
+                                      rx="1"
+                                      stroke="#00bfa5"
+                                      width="11"
+                                      x="4.5"
+                                      y=".5"
+                                    ></rect>
+                                    <rect
+                                      fill="#00bfa5"
+                                      fill-rule="evenodd"
+                                      height="7"
+                                      rx="1"
+                                      width="7"
+                                      x="13"
+                                      y="2"
+                                    ></rect>
+                                    <rect
+                                      height="6"
+                                      rx="1"
+                                      stroke="#00bfa5"
+                                      width="6"
+                                      x="13.5"
+                                      y="2.5"
+                                    ></rect>
+                                    <circle
+                                      cx="8"
+                                      cy="10"
+                                      fill="#00bfa5"
+                                      r="2"
+                                    ></circle>
+                                    <circle
+                                      cx="15"
+                                      cy="10"
+                                      fill="#00bfa5"
+                                      r="2"
+                                    ></circle>
+                                    <path
+                                      d="m6.7082481 6.7999878h-.7082481v-4.2275391h2.8488017v.5976563h-2.1405536v1.2978515h1.9603297v.5800782h-1.9603297zm2.6762505 0v-3.1904297h.6544972v.4892578h.0505892c.0980164-.3134765.4774351-.5419922.9264138-.5419922.0980165 0 .2276512.0087891.3003731.0263672v.6210938c-.053751-.0175782-.2624312-.038086-.3762568-.038086-.5122152 0-.8758247.3017578-.8758247.75v1.8837891zm3.608988-2.7158203c-.5027297 0-.8536919.328125-.8916338.8261719h1.7390022c-.0158092-.5009766-.3446386-.8261719-.8473684-.8261719zm.8442065 1.8544922h.6544972c-.1549293.571289-.7050863.9228515-1.49238.9228515-.9864885 0-1.5903965-.6269531-1.5903965-1.6464843 0-1.0195313.6165553-1.6669922 1.5872347-1.6669922.9580321 0 1.5366455.6064453 1.5366455 1.6083984v.2197266h-2.4314412v.0351562c.0221328.5595703.373095.9140625.9169284.9140625.4110369 0 .6924391-.1376953.8189119-.3867187zm2.6224996-1.8544922c-.5027297 0-.853692.328125-.8916339.8261719h1.7390022c-.0158091-.5009766-.3446386-.8261719-.8473683-.8261719zm.8442064 1.8544922h.6544972c-.1549293.571289-.7050863.9228515-1.49238.9228515-.9864885 0-1.5903965-.6269531-1.5903965-1.6464843 0-1.0195313.6165553-1.6669922 1.5872347-1.6669922.9580321 0 1.5366455.6064453 1.5366455 1.6083984v.2197266h-2.4314412v.0351562c.0221328.5595703.373095.9140625.9169284.9140625.4110369 0 .6924391-.1376953.8189119-.3867187z"
+                                      fill="#fff"
+                                    ></path>
+                                    <path
+                                      d="m .5 8.5h3.5v1h-3.5z"
+                                      fill="#00bfa5"
+                                    ></path>
+                                    <path
+                                      d="m0 10.15674h3.5v1h-3.5z"
+                                      fill="#00bfa5"
+                                    ></path>
+                                    <circle
+                                      cx="8"
+                                      cy="10"
+                                      fill="#047565"
+                                      r="1"
+                                    ></circle>
+                                    <circle
+                                      cx="15"
+                                      cy="10"
+                                      fill="#047565"
+                                      r="1"
+                                    ></circle>
+                                  </g>
+                                </svg>
+                              </div>
+                              <div
+                                class="home-product__product-rating-vs-sales"
+                              >
+                                <div class="home-product__product-rating">
+                                  <i
+                                    class="fa-solid fa-star home-product__product-rating-star home-product__product-rating-star--active"
+                                  ></i>
+                                  <i
+                                    class="fa-solid fa-star home-product__product-rating-star home-product__product-rating-star--active"
+                                  ></i>
+                                  <i
+                                    class="fa-solid fa-star home-product__product-rating-star home-product__product-rating-star--active"
+                                  ></i>
+                                  <i
+                                    class="fa-solid fa-star home-product__product-rating-star home-product__product-rating-star--active"
+                                  ></i>
+                                  <i
+                                    class="fa-solid fa-star home-product__product-rating-star"
+                                  ></i>
+                                </div>
+                                <span class="home-product__product-sales">
+                                  Đã bán 173
+                                </span>
+                              </div>
+                              <p class="home-product__product-origin">
+                                TP. Hồ Chí Minh
+                              </p>
+                            </div>
+                          </a>
+                        </div>
+                        <div class="col l-2-4 m-2-4 c-6">
+                          <a
+                            href=""
+                            class="home-product__product container-main-product"
+                          >
+                            <div
+                              class="home-product__product-img-process-agency"
+                            >
+                              XỬ LÝ ĐƠN HÀNG BỞI SHOPEE
+                            </div>
+                            <div class="home-product__sales-off">
+                              <span class="home-product__sales-off-percent"
+                                >49%</span
+                              >
+                              <span class="home-product__sales-off-text"
+                                >Giảm</span
+                              >
+                            </div>
+
+                            <div
+                              class="home-product__product-img"
+                              style="
+                                background-image: url(./assets/img/suggest-product-1.png);
+                              "
+                            >
+                              <img
+                                src="./assets/img/product-badge.png"
+                                alt="Product Badge"
+                                class="home-product__product-badge"
+                              />
+                            </div>
+                            <div class="home-product__product-detail">
+                              <h4 class="home-product__product-name">
+                                [Mã ELBAU150 giảm 8% đơn 500K] Màn Hình LG
+                                27QN600 27" IPS QHD (2560x1440) HDR AMD Freesync
+                                - Chính Hãng
+                              </h4>
+                              <span class="home-product__product-special">
+                                #ShopDacBiet
+                              </span>
+                              <div class="home-product__product-price">
+                                <div
+                                  class="home-product__product-price-old-section"
+                                >
+                                  <span
+                                    class="home-product__product-price-currency"
+                                    >đ</span
+                                  ><span class="home-product__product-price-old"
+                                    >7.890.000</span
+                                  >
+                                </div>
+                                <div
+                                  class="home-product__product-price-new-section"
+                                >
+                                  <span
+                                    class="home-product__product-price-currency-new"
+                                    >đ</span
+                                  ><span class="home-product__product-price-new"
+                                    >6.400.000</span
+                                  >
+                                </div>
+                                <svg
+                                  height="12"
+                                  viewBox="0 0 20 12"
+                                  width="20"
+                                  class="shopee-svg-icon icon-free-shipping"
+                                >
+                                  <g
+                                    fill="none"
+                                    fill-rule="evenodd"
+                                    transform=""
+                                  >
+                                    <rect
+                                      fill="#00bfa5"
+                                      fill-rule="evenodd"
+                                      height="9"
+                                      rx="1"
+                                      width="12"
+                                      x="4"
+                                    ></rect>
+                                    <rect
+                                      height="8"
+                                      rx="1"
+                                      stroke="#00bfa5"
+                                      width="11"
+                                      x="4.5"
+                                      y=".5"
+                                    ></rect>
+                                    <rect
+                                      fill="#00bfa5"
+                                      fill-rule="evenodd"
+                                      height="7"
+                                      rx="1"
+                                      width="7"
+                                      x="13"
+                                      y="2"
+                                    ></rect>
+                                    <rect
+                                      height="6"
+                                      rx="1"
+                                      stroke="#00bfa5"
+                                      width="6"
+                                      x="13.5"
+                                      y="2.5"
+                                    ></rect>
+                                    <circle
+                                      cx="8"
+                                      cy="10"
+                                      fill="#00bfa5"
+                                      r="2"
+                                    ></circle>
+                                    <circle
+                                      cx="15"
+                                      cy="10"
+                                      fill="#00bfa5"
+                                      r="2"
+                                    ></circle>
+                                    <path
+                                      d="m6.7082481 6.7999878h-.7082481v-4.2275391h2.8488017v.5976563h-2.1405536v1.2978515h1.9603297v.5800782h-1.9603297zm2.6762505 0v-3.1904297h.6544972v.4892578h.0505892c.0980164-.3134765.4774351-.5419922.9264138-.5419922.0980165 0 .2276512.0087891.3003731.0263672v.6210938c-.053751-.0175782-.2624312-.038086-.3762568-.038086-.5122152 0-.8758247.3017578-.8758247.75v1.8837891zm3.608988-2.7158203c-.5027297 0-.8536919.328125-.8916338.8261719h1.7390022c-.0158092-.5009766-.3446386-.8261719-.8473684-.8261719zm.8442065 1.8544922h.6544972c-.1549293.571289-.7050863.9228515-1.49238.9228515-.9864885 0-1.5903965-.6269531-1.5903965-1.6464843 0-1.0195313.6165553-1.6669922 1.5872347-1.6669922.9580321 0 1.5366455.6064453 1.5366455 1.6083984v.2197266h-2.4314412v.0351562c.0221328.5595703.373095.9140625.9169284.9140625.4110369 0 .6924391-.1376953.8189119-.3867187zm2.6224996-1.8544922c-.5027297 0-.853692.328125-.8916339.8261719h1.7390022c-.0158091-.5009766-.3446386-.8261719-.8473683-.8261719zm.8442064 1.8544922h.6544972c-.1549293.571289-.7050863.9228515-1.49238.9228515-.9864885 0-1.5903965-.6269531-1.5903965-1.6464843 0-1.0195313.6165553-1.6669922 1.5872347-1.6669922.9580321 0 1.5366455.6064453 1.5366455 1.6083984v.2197266h-2.4314412v.0351562c.0221328.5595703.373095.9140625.9169284.9140625.4110369 0 .6924391-.1376953.8189119-.3867187z"
+                                      fill="#fff"
+                                    ></path>
+                                    <path
+                                      d="m .5 8.5h3.5v1h-3.5z"
+                                      fill="#00bfa5"
+                                    ></path>
+                                    <path
+                                      d="m0 10.15674h3.5v1h-3.5z"
+                                      fill="#00bfa5"
+                                    ></path>
+                                    <circle
+                                      cx="8"
+                                      cy="10"
+                                      fill="#047565"
+                                      r="1"
+                                    ></circle>
+                                    <circle
+                                      cx="15"
+                                      cy="10"
+                                      fill="#047565"
+                                      r="1"
+                                    ></circle>
+                                  </g>
+                                </svg>
+                              </div>
+                              <div
+                                class="home-product__product-rating-vs-sales"
+                              >
+                                <div class="home-product__product-rating">
+                                  <i
+                                    class="fa-solid fa-star home-product__product-rating-star home-product__product-rating-star--active"
+                                  ></i>
+                                  <i
+                                    class="fa-solid fa-star home-product__product-rating-star home-product__product-rating-star--active"
+                                  ></i>
+                                  <i
+                                    class="fa-solid fa-star home-product__product-rating-star home-product__product-rating-star--active"
+                                  ></i>
+                                  <i
+                                    class="fa-solid fa-star home-product__product-rating-star home-product__product-rating-star--active"
+                                  ></i>
+                                  <i
+                                    class="fa-solid fa-star home-product__product-rating-star"
+                                  ></i>
+                                </div>
+                                <span class="home-product__product-sales">
+                                  Đã bán 173
+                                </span>
+                              </div>
+                              <p class="home-product__product-origin">
+                                TP. Hồ Chí Minh
+                              </p>
+                            </div>
+                          </a>
+                        </div>
+                        <div class="col l-2-4 m-2-4 c-6">
+                          <a
+                            href=""
+                            class="home-product__product container-main-product"
+                          >
+                            <div
+                              class="home-product__product-img-process-agency"
+                            >
+                              XỬ LÝ ĐƠN HÀNG BỞI SHOPEE
+                            </div>
+                            <div class="home-product__sales-off">
+                              <span class="home-product__sales-off-percent"
+                                >49%</span
+                              >
+                              <span class="home-product__sales-off-text"
+                                >Giảm</span
+                              >
+                            </div>
+
+                            <div
+                              class="home-product__product-img"
+                              style="
+                                background-image: url(./assets/img/suggest-product-1.png);
+                              "
+                            >
+                              <img
+                                src="./assets/img/product-badge.png"
+                                alt="Product Badge"
+                                class="home-product__product-badge"
+                              />
+                            </div>
+                            <div class="home-product__product-detail">
+                              <h4 class="home-product__product-name">
+                                [Mã ELBAU150 giảm 8% đơn 500K] Màn Hình LG
+                                27QN600 27" IPS QHD (2560x1440) HDR AMD Freesync
+                                - Chính Hãng
+                              </h4>
+                              <span class="home-product__product-special">
+                                #ShopDacBiet
+                              </span>
+                              <div class="home-product__product-price">
+                                <div
+                                  class="home-product__product-price-old-section"
+                                >
+                                  <span
+                                    class="home-product__product-price-currency"
+                                    >đ</span
+                                  ><span class="home-product__product-price-old"
+                                    >7.890.000</span
+                                  >
+                                </div>
+                                <div
+                                  class="home-product__product-price-new-section"
+                                >
+                                  <span
+                                    class="home-product__product-price-currency-new"
+                                    >đ</span
+                                  ><span class="home-product__product-price-new"
+                                    >6.400.000</span
+                                  >
+                                </div>
+                                <svg
+                                  height="12"
+                                  viewBox="0 0 20 12"
+                                  width="20"
+                                  class="shopee-svg-icon icon-free-shipping"
+                                >
+                                  <g
+                                    fill="none"
+                                    fill-rule="evenodd"
+                                    transform=""
+                                  >
+                                    <rect
+                                      fill="#00bfa5"
+                                      fill-rule="evenodd"
+                                      height="9"
+                                      rx="1"
+                                      width="12"
+                                      x="4"
+                                    ></rect>
+                                    <rect
+                                      height="8"
+                                      rx="1"
+                                      stroke="#00bfa5"
+                                      width="11"
+                                      x="4.5"
+                                      y=".5"
+                                    ></rect>
+                                    <rect
+                                      fill="#00bfa5"
+                                      fill-rule="evenodd"
+                                      height="7"
+                                      rx="1"
+                                      width="7"
+                                      x="13"
+                                      y="2"
+                                    ></rect>
+                                    <rect
+                                      height="6"
+                                      rx="1"
+                                      stroke="#00bfa5"
+                                      width="6"
+                                      x="13.5"
+                                      y="2.5"
+                                    ></rect>
+                                    <circle
+                                      cx="8"
+                                      cy="10"
+                                      fill="#00bfa5"
+                                      r="2"
+                                    ></circle>
+                                    <circle
+                                      cx="15"
+                                      cy="10"
+                                      fill="#00bfa5"
+                                      r="2"
+                                    ></circle>
+                                    <path
+                                      d="m6.7082481 6.7999878h-.7082481v-4.2275391h2.8488017v.5976563h-2.1405536v1.2978515h1.9603297v.5800782h-1.9603297zm2.6762505 0v-3.1904297h.6544972v.4892578h.0505892c.0980164-.3134765.4774351-.5419922.9264138-.5419922.0980165 0 .2276512.0087891.3003731.0263672v.6210938c-.053751-.0175782-.2624312-.038086-.3762568-.038086-.5122152 0-.8758247.3017578-.8758247.75v1.8837891zm3.608988-2.7158203c-.5027297 0-.8536919.328125-.8916338.8261719h1.7390022c-.0158092-.5009766-.3446386-.8261719-.8473684-.8261719zm.8442065 1.8544922h.6544972c-.1549293.571289-.7050863.9228515-1.49238.9228515-.9864885 0-1.5903965-.6269531-1.5903965-1.6464843 0-1.0195313.6165553-1.6669922 1.5872347-1.6669922.9580321 0 1.5366455.6064453 1.5366455 1.6083984v.2197266h-2.4314412v.0351562c.0221328.5595703.373095.9140625.9169284.9140625.4110369 0 .6924391-.1376953.8189119-.3867187zm2.6224996-1.8544922c-.5027297 0-.853692.328125-.8916339.8261719h1.7390022c-.0158091-.5009766-.3446386-.8261719-.8473683-.8261719zm.8442064 1.8544922h.6544972c-.1549293.571289-.7050863.9228515-1.49238.9228515-.9864885 0-1.5903965-.6269531-1.5903965-1.6464843 0-1.0195313.6165553-1.6669922 1.5872347-1.6669922.9580321 0 1.5366455.6064453 1.5366455 1.6083984v.2197266h-2.4314412v.0351562c.0221328.5595703.373095.9140625.9169284.9140625.4110369 0 .6924391-.1376953.8189119-.3867187z"
+                                      fill="#fff"
+                                    ></path>
+                                    <path
+                                      d="m .5 8.5h3.5v1h-3.5z"
+                                      fill="#00bfa5"
+                                    ></path>
+                                    <path
+                                      d="m0 10.15674h3.5v1h-3.5z"
+                                      fill="#00bfa5"
+                                    ></path>
+                                    <circle
+                                      cx="8"
+                                      cy="10"
+                                      fill="#047565"
+                                      r="1"
+                                    ></circle>
+                                    <circle
+                                      cx="15"
+                                      cy="10"
+                                      fill="#047565"
+                                      r="1"
+                                    ></circle>
+                                  </g>
+                                </svg>
+                              </div>
+                              <div
+                                class="home-product__product-rating-vs-sales"
+                              >
+                                <div class="home-product__product-rating">
+                                  <i
+                                    class="fa-solid fa-star home-product__product-rating-star home-product__product-rating-star--active"
+                                  ></i>
+                                  <i
+                                    class="fa-solid fa-star home-product__product-rating-star home-product__product-rating-star--active"
+                                  ></i>
+                                  <i
+                                    class="fa-solid fa-star home-product__product-rating-star home-product__product-rating-star--active"
+                                  ></i>
+                                  <i
+                                    class="fa-solid fa-star home-product__product-rating-star home-product__product-rating-star--active"
+                                  ></i>
+                                  <i
+                                    class="fa-solid fa-star home-product__product-rating-star"
+                                  ></i>
+                                </div>
+                                <span class="home-product__product-sales">
+                                  Đã bán 173
+                                </span>
+                              </div>
+                              <p class="home-product__product-origin">
+                                TP. Hồ Chí Minh
+                              </p>
+                            </div>
+                          </a>
+                        </div>
+                        <div class="col l-2-4 m-2-4 c-6">
                           <a
                             href=""
                             class="home-product__product container-main-product"
@@ -10446,7 +10528,7 @@
           <div class="grid wide">
             <div class="footer-section-2__wrap">
               <div class="row">
-                <div class="col l-2 m-4-4">
+                <div class="col l-2-4 m-2-4 c-6">
                   <h4 class="footer-section-2__heading">CHĂM SÓC KHÁCH HÀNG</h4>
                   <ul class="footer-section-2__list">
                     <li class="footer-section-2__item">
@@ -10506,7 +10588,7 @@
                     </li>
                   </ul>
                 </div>
-                <div class="col l-2 m-4-4">
+                <div class="col l-2-4 m-2-4 c-6">
                   <h4 class="footer-section-2__heading">VỀ SHOPEE</h4>
                   <ul class="footer-section-2__list">
                     <li class="footer-section-2__item">
@@ -10556,29 +10638,31 @@
                     </li>
                   </ul>
                 </div>
-                <div class="col l-2 m-4-4">
-                  <div class="footer-section-2__checkout">
-                    <h4 class="footer-section-2__heading">THANH TOÁN</h4>
-                    <div class="footer-section-2__checkout-img">
-                      <img
-                        src="./assets/img/footer-2-img-1.png"
-                        alt="Checkout Agency"
-                      />
-                    </div>
-                    <div class="footer-section-2__shipping">
-                      <h4 class="footer-section-2__heading">
-                        ĐƠN VỊ VẬN CHUYỂN
-                      </h4>
+                <div class="col l-2-4 m-2-4 c-12">
+                  <div class="footer-section-2__check-out-shipping">
+                    <div class="footer-section-2__checkout">
+                      <h4 class="footer-section-2__heading">THANH TOÁN</h4>
                       <div class="footer-section-2__checkout-img">
                         <img
-                          src="./assets/img/footer-2-img-2.png"
-                          alt="Shipping Agency"
+                          src="./assets/img/footer-2-img-1.png"
+                          alt="Checkout Agency"
                         />
                       </div>
                     </div>
+                      <div class="footer-section-2__shipping">
+                        <h4 class="footer-section-2__heading">
+                          ĐƠN VỊ VẬN CHUYỂN
+                        </h4>
+                        <div class="footer-section-2__shipping-img">
+                          <img
+                            src="./assets/img/footer-2-img-2.png"
+                            alt="Shipping Agency"
+                          />
+                        </div>
+                      </div>
                   </div>
                 </div>
-                <div class="col l-2 m-4-4">
+                <div class="col l-2-4 m-2-4 c-6">
                   <div class="footer-section-2__social">
                     <h4 class="footer-section-2__heading">
                       THEO DÕI CHÚNG TÔI TRÊN
@@ -10600,38 +10684,40 @@
                         </a>
                       </li>
                     </ul>
-                  </div>
+                  </div>                
                 </div>
-                <div class="col l-2 m-4-4">
-                  <h4 class="footer-section-2__heading">
-                    TẢI ỨNG DỤNG SHOPEE NGAY THÔI
-                  </h4>
-                  <div href="" class="footer-section-2__qr">
-                    <a href="" class="footer-section-2__qr-img">
-                      <img
-                        src="./assets/img/footer-qr.png"
-                        alt="Footer QR Code"
-                      />
-                    </a>
-                    <div class="footer-section-2__apps-mobile">
-                      <a href=""
-                        ><img
-                          src="./assets/img/footer-app-store.png"
-                          alt="App Store"
-                      /></a>
-                      <a href=""
-                        ><img
-                          src="./assets/img/footer-google-play.png"
-                          alt="Google Play"
-                      /></a>
-                      <a href=""
-                        ><img
-                          src="./assets/img/footer-app-gallery.png"
-                          alt="App Gallery"
-                      /></a>
+                <div class="col l-2-4 m-2-4 c-6">
+                  <div class="footer-section-2__download-app">
+                    <h4 class="footer-section-2__heading">
+                      TẢI ỨNG DỤNG SHOPEE NGAY THÔI
+                    </h4>
+                    <div href="" class="footer-section-2__qr">
+                      <a href="" class="footer-section-2__qr-img">
+                        <img
+                          src="./assets/img/footer-qr.png"
+                          alt="Footer QR Code"
+                        />
+                      </a>
+                      <div class="footer-section-2__apps-mobile">
+                        <a href=""
+                          ><img
+                            src="./assets/img/footer-app-store.png"
+                            alt="App Store"
+                        /></a>
+                        <a href=""
+                          ><img
+                            src="./assets/img/footer-google-play.png"
+                            alt="Google Play"
+                        /></a>
+                        <a href=""
+                          ><img
+                            src="./assets/img/footer-app-gallery.png"
+                            alt="App Gallery"
+                        /></a>
+                      </div>
+                    </div>
                     </div>
                   </div>
-                </div>
               </div>
             </div>
           </div>

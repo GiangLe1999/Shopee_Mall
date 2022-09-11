@@ -20,6 +20,9 @@ html {
   font-family: "Roboto", sans-serif;
   box-sizing: border-box;
 }
+.clear {
+  clear: both;
+}
 .category__head {
   display: flex;
   justify-content: space-between;
@@ -263,5 +266,13 @@ html {
   to {
     opacity: 1;
     top: var(--top-to);
+  }
+}
+@keyframes dropMobile {
+  from {
+    top: 24px;
+  }
+  to {
+    top: 49px;
   }
 }
